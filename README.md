@@ -86,10 +86,15 @@ VPN, Tailscale, Configuration réseau - Infrastructure sécurisée
 ## 🏋️ Au-delà du Code
 
 🥋 **Jiu-Jitsu Brésilien** — Entraînement régulier & sparring  
+
 💪 **Musculation**
+
 🎮 **Gaming** — F1, Pokémon...
+
 🏎️ **Formule 1**
+
 🎥 **Cinéma**
+
 🛒 **Hardware Tinkering** — Vinted, eBay
 
 ---
