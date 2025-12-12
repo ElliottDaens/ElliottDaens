@@ -8,7 +8,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Elliott%20Daens-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/elliott-daens-906b8b32a/)
 [![Email](https://img.shields.io/badge/Gmail-daenselliott691-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:daenselliott691@gmail.com)
 
-🇫🇷 Basé en France | 💻 Développeur en formation | 🚀 Passionné par l'infrastructure
+🇫🇷 Basé en France | 💻 Développeur en formation | 🚀 Passionné par l'informatique en général
 
 </div>
 
@@ -16,9 +16,7 @@
 
 ## 🎯 À propos de moi
 
-Développeur web full-stack avec une passion pour la création d'applications robustes et la gestion d'infrastructure. Je maîtrise les technologies **frontend et backend** pour construire des solutions complètes, avec un intérêt particulier pour **Docker**, **Linux** et l'**automatisation**.
-
-J'apprends continuellement les best practices en **web development** et **DevOps** à travers des projets pratiques et concrets.
+Je maîtrise les technologies **frontend et backend** et j'ai un intérêt particulier pour **Docker**, **Linux** et l'**automatisation**.
 
 ---
 
@@ -59,9 +57,9 @@ J'apprends continuellement les best practices en **web development** et **DevOps
 
 | 🎨 Frontend | ⚙️ Backend | 🐳 Infrastructure |
 |:---|:---|:---|
-| HTML5 sémantique | PHP orienté objet | Docker & Compose |
-| CSS3 responsive | Node.js & Express | Linux Administration |
-| JavaScript ES6+ | REST APIs | Monitoring & Logs |
+| HTML5 | PHP | Docker & Compose |
+| CSS3  | Node.js | Linux Administration |
+| JavaScript | REST APIs | Monitoring & Logs |
 | UI/UX Design | Database Design | Network Configuration |
 
 </div>
@@ -91,8 +89,8 @@ VPN, Tailscale, Configuration réseau - Infrastructure sécurisée
 💪 **Musculation**
 🎮 **Gaming** — F1, Pokémon...
 🏎️ **Formule 1**
+🎥 **Cinéma**
 🛒 **Hardware Tinkering** — Vinted, eBay
-
 
 ---
 
