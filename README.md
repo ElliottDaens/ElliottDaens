@@ -70,7 +70,6 @@ J'apprends continuellement les best practices en **web development** et **DevOps
 
 ## 🎯 Ce que je fais
 
-<div align="center">
 
 🔨 **Développement Full-Stack**  
 HTML/CSS/JS + PHP/MySQL - Applications robustes et performantes
@@ -84,21 +83,16 @@ Prometheus, Grafana - Surveillance et optimisation des systèmes
 🔐 **Network & Sécurité**  
 VPN, Tailscale, Configuration réseau - Infrastructure sécurisée
 
-</div>
-
 ---
 
 ## 🏋️ Au-delà du Code
 
-<div align="center">
+🥋 **Jiu-Jitsu Brésilien** — Entraînement régulier & sparring  
+💪 **Musculation**
+🎮 **Gaming** — F1, Pokémon...
+🏎️ **Formule 1**
+🛒 **Hardware Tinkering** — Vinted, eBay
 
-🥋 **Brazilian Jiu-Jitsu** — Entraînement régulier & sparring  
-💪 **Strength Training** — Musculation & fitness  
-🎮 **Gaming** — Pokemon, GTA, F1 games  
-🏎️ **Formule 1** — Passionate fan  
-🛒 **Hardware Tinkering** — Vinted, eBay, custom builds
-
-</div>
 
 ---
 
@@ -107,8 +101,7 @@ VPN, Tailscale, Configuration réseau - Infrastructure sécurisée
 <div align="center">
 
 🔄 Advanced Web Frameworks & Architecture MVC  
-🔄 Infrastructure as Code & Automation  
-🔄 Web Security & Best Practices  
+🔄 Infrastructure as Code & Automation    
 🔄 Application Scalability & Optimization
 
 </div>
@@ -117,13 +110,9 @@ VPN, Tailscale, Configuration réseau - Infrastructure sécurisée
 
 ## 📊 GitHub Stats
 
-<div align="center">
-
 [![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ElliottDaens&show_icons=true&theme=dark&bg_color=1a1b27&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&border_color=30363d)](https://github.com/ElliottDaens)
 
 [![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ElliottDaens&layout=compact&theme=dark&bg_color=1a1b27&title_color=58a6ff&text_color=c9d1d9&border_color=30363d)](https://github.com/ElliottDaens)
-
-</div>
 
 ---
 
