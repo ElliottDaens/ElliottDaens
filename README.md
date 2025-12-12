@@ -34,7 +34,7 @@ Je maîtrise les technologies **frontend et backend** et j'ai un intérêt parti
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
-### Infrastructure & DevOps
+### Infrastructures utilisées
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
@@ -58,7 +58,7 @@ Je maîtrise les technologies **frontend et backend** et j'ai un intérêt parti
 | 🎨 Frontend | ⚙️ Backend | 🐳 Infrastructure |
 |:---|:---|:---|
 | HTML5 | PHP | Docker & Compose |
-| CSS3  | Node.js | Linux Administration |
+| CSS3 | Node.js | Linux Administration |
 | JavaScript | REST APIs | Monitoring & Logs |
 | UI/UX Design | Database Design | Network Configuration |
 
@@ -68,11 +68,12 @@ Je maîtrise les technologies **frontend et backend** et j'ai un intérêt parti
 
 ## 🎯 Ce que je fais
 
+<div align="center">
 
 🔨 **Développement Full-Stack**  
 HTML/CSS/JS + PHP/MySQL - Applications robustes et performantes
 
-🐳 **Infrastructure & DevOps**  
+🐳 **Infrastructures**  
 Docker, Compose, Linux Administration - Déploiement & gestion
 
 📊 **Monitoring & Optimisation**  
@@ -81,21 +82,27 @@ Prometheus, Grafana - Surveillance et optimisation des systèmes
 🔐 **Network & Sécurité**  
 VPN, Tailscale, Configuration réseau - Infrastructure sécurisée
 
+</div>
+
 ---
 
 ## 🏋️ Au-delà du Code
 
-🥋 **Jiu-Jitsu Brésilien** — Entraînement régulier & sparring  
+<div align="center">
 
-💪 **Musculation**
+🥋 **Jiu-Jitsu Brésilien** — Entraînement régulier & sparring
+
+💪 **Musculation** — Entraînement et progression
 
 🎮 **Gaming** — F1, Pokémon...
 
-🏎️ **Formule 1**
+🏎️ **Formule 1** — Passionate fan
 
-🎥 **Cinéma**
+🎥 **Cinéma** — Cinéphile amateur
 
-🛒 **Hardware Tinkering** — Vinted, eBay
+🛒 **Tinkering** — Vinted, eBay via Bot Python
+
+</div>
 
 ---
 
@@ -104,7 +111,7 @@ VPN, Tailscale, Configuration réseau - Infrastructure sécurisée
 <div align="center">
 
 🔄 Advanced Web Frameworks & Architecture MVC  
-🔄 Infrastructure as Code & Automation    
+🔄 Infrastructure as Code & Automation  
 🔄 Application Scalability & Optimization
 
 </div>
@@ -113,9 +120,13 @@ VPN, Tailscale, Configuration réseau - Infrastructure sécurisée
 
 ## 📊 GitHub Stats
 
+<div align="center">
+
 [![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ElliottDaens&show_icons=true&theme=dark&bg_color=1a1b27&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&border_color=30363d)](https://github.com/ElliottDaens)
 
 [![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ElliottDaens&layout=compact&theme=dark&bg_color=1a1b27&title_color=58a6ff&text_color=c9d1d9&border_color=30363d)](https://github.com/ElliottDaens)
+
+</div>
 
 ---
 
@@ -137,7 +148,7 @@ N'hésitez pas à me contacter ! Je serais ravi de discuter de vos projets ! �
 
 <div align="center">
 
-![](https://img.shields.io/badge/Status-Open%20to%20opportunities-brightgreen?style=flat-square)
+![](https://img.shields.io/badge/Status-Ouvert%20aux%20opportunités-brightgreen?style=flat-square)
 
 ⭐ **Si vous aimez mes projets, n'oubliez pas de laisser une star !** ⭐
 
