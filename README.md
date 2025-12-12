@@ -17,7 +17,7 @@
 ## 🎯 À propos de moi
 
 
-Je maîtrise les technologies **frontend et backend** et j'ai un intérêt particulier pour **Docker** et la **Maintenance et création de serveur**.
+Je maîtrise les technologies **frontend et backend** et j'ai un intérêt particulier pour **Docker** et la **création / maintenance de serveur (NAS ...)**.
 
 ---
 
