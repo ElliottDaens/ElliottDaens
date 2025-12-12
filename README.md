@@ -1,69 +1,121 @@
-# Salut 👋 Je suis Elliott Daens
+# 👋 Elliott Daens
 
-Développeur web passionné basé en **France** | Full-Stack en apprentissage | Infrastructure & DevOps
+<div align="center">
+
+**Développeur Web Full-Stack | Infrastructure & DevOps Enthusiast**
+
+[![GitHub](https://img.shields.io/badge/GitHub-ElliottDaens-181717?style=for-the-badge&logo=github)](https://github.com/ElliottDaens)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Elliott%20Daens-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/elliott-daens-906b8b32a/)
+[![Email](https://img.shields.io/badge/Email-daenselliott691%40gmail.com-EA4335?style=for-the-badge&logo=gmail)](mailto:daenselliott691@gmail.com)
+
+</div>
 
 ---
 
-## 🚀 À propos de moi
+## 🚀 À propos
 
-Je suis un développeur web en formation. Je combine les compétences frontend et backend pour construire des solutions complètes et j'ai un intérêt particulier pour Docker, Linux et l'automatisation.
+Développeur web en formation basé en **France** 🇫🇷
+
+Je suis passionné par la création d'applications robustes et l'infrastructure. Je combine des compétences **frontend** et **backend** pour construire des solutions complètes, avec un intérêt particulier pour **Docker**, **Linux** et l'**automatisation**.
+
+Actuellement j'apprends les best practices en **web development** et **DevOps** à travers des projets pratiques.
+
+---
 
 ## 💻 Stack Technique
 
-### Frontend
-- **HTML5** | **CSS3** | **JavaScript**
+<table>
+<tr>
+<td>
 
-### Backend
-- **PHP** | **Node.js** | **MySQL**
+### 🎨 Frontend
+- HTML5
+- CSS3
+- JavaScript (ES6+)
 
-### Infrastructure & DevOps
-- **Docker** | **Docker Compose** | **Linux (Ubuntu)**
-- **Portainer** | **Tailscale VPN**
-- **Monitoring** : Prometheus, Grafana
+</td>
+<td>
 
-### Outils & Compétences
-- **Version Control** : Git, GitHub
-- **Bases de données** : MySQL, SQL
-- **Network** : Configuration réseau, VPN
-- **System Administration** : Linux, Server Management
+### ⚙️ Backend
+- PHP
+- Node.js
+- MySQL / SQL
+
+</td>
+<td>
+
+### 🐳 Infrastructure
+- Docker
+- Docker Compose
+- Linux (Ubuntu)
+- Portainer
+- Tailscale VPN
+
+</td>
+</tr>
+</table>
+
+### 🛠️ Outils & Compétences
+
+```
+Git • GitHub • Prometheus • Grafana • VPN • System Admin
+Configuration Réseau • Server Management
+```
 
 ---
 
 ## 🎯 Ce que je fais
 
-✅ Développement **full-stack** (HTML/CSS/JS + PHP/MySQL)  
-✅ Configuration et gestion d'**infrastructure Docker**  
-✅ Maintenance de **serveurs Linux**  
+| | |
+|---|---|
+| 🔨 | Développement **full-stack** (HTML/CSS/JS + PHP/MySQL) |
+| 🐳 | Configuration et gestion d'**infrastructure Docker** |
+| 🖥️ | Maintenance et administration de **serveurs Linux** |
+| 📚 | Apprentissage continu en **web development** et **DevOps** |
+| 🔍 | Exploration de **nouvelles technologies** et **frameworks** |
 
 ---
 
-## 🏋️ En dehors du code
+## 🏋️ Au-delà du code
 
-Quand je ne code pas, vous me trouverez :
-- 🥋 En train de m'entraîner en **Jiu-Jitsu Brésilien**
-- 💪 À la salle de sport
-- 🎮 En train de jouer à des **jeux vidéo** (Pokemon, F1...)
-- 🏎️ Regarder la **Formule 1**
+Quand je ne suis pas derrière mon clavier :
 
----
-
-## 📫 Comment me contacter
-
-- **GitHub** : [@ElliottDaens](https://github.com/ElliottDaens)
-- **Email** : [daenselliott691@gmail.com](mailto:daenselliott691@gmail.com)
-- **LinkedIn** : [Elliott Daens](https://www.linkedin.com/in/elliott-daens-906b8b32a/)
-
-N'hésitez pas à me contacter pour discuter de projets, collaborations ou simplement pour échanger sur le développement web et l'infrastructure !
+- 🥋 **Brazilian Jiu-Jitsu** - entraînement régulier et sparring
+- 💪 **Strength Training** - musculation et fitness
+- 🎮 **Gaming** - Pokemon, GTA, F1 games
+- 🏎️ **Formule 1** - passionate fan
+- 🛒 **Hardware Tinkering** - Vinted, eBay, custom builds
 
 ---
 
-## 🎓 Actuellement en apprentissage
+## 📚 Actuellement en apprentissage
 
-- 📚 Advanced web frameworks et architecture MVC
-- 🐳 Infrastructure as Code et automation
-- 🔒 Sécurité web et best practices
-- 📈 Scalabilité et optimization des applications
+```
+→ Advanced Web Frameworks & Architecture MVC
+→ Infrastructure as Code & Automation
+→ Web Security & Best Practices
+→ Application Scalability & Optimization
+```
 
 ---
 
-**Merci d'être passé ! N'oubliez pas de laisser une ⭐ si vous aimez mes projets !**
+## 📫 Connectons-nous !
+
+<div align="center">
+
+Vous avez une idée de projet ? Une collaboration en tête ?  
+N'hésitez pas à me contacter ! 👇
+
+[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github)](https://github.com/ElliottDaens)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/elliott-daens-906b8b32a/)
+[![Email](https://img.shields.io/badge/-Email-EA4335?style=flat-square&logo=gmail)](mailto:daenselliott691@gmail.com)
+
+</div>
+
+---
+
+<div align="center">
+
+⭐ **N'oubliez pas de laisser une star si vous aimez mes projets !** ⭐
+
+</div>
