@@ -16,11 +16,13 @@
 
 ## 🎯 À propos de moi
 
+
 Je maîtrise les technologies **frontend et backend** et j'ai un intérêt particulier pour **Docker**, **Linux** et l'**automatisation**.
 
 ---
 
 ## 💻 Technologies & Outils
+
 
 <div align="center">
 
@@ -53,6 +55,7 @@ Je maîtrise les technologies **frontend et backend** et j'ai un intérêt parti
 
 ## 🔥 Compétences Principales
 
+
 <div align="center">
 
 | 🎨 Frontend | ⚙️ Backend | 🐳 Infrastructure |
@@ -67,6 +70,7 @@ Je maîtrise les technologies **frontend et backend** et j'ai un intérêt parti
 ---
 
 ## 🎯 Ce que je fais
+
 
 🔨 **Développement Full-Stack**  
 HTML/CSS/JS + PHP/MySQL - Applications robustes et performantes
@@ -100,6 +104,7 @@ VPN, Tailscale, Configuration réseau - Infrastructure sécurisée
 
 ## 📚 Actuellement en Apprentissage
 
+
 <div align="center">
 
 🔄 Frameworks Web Avancés & Architecture MVC
@@ -110,6 +115,7 @@ VPN, Tailscale, Configuration réseau - Infrastructure sécurisée
 ---
 
 ## 📊 GitHub Stats
+
 
 <div align="center">
 
@@ -122,6 +128,7 @@ VPN, Tailscale, Configuration réseau - Infrastructure sécurisée
 ---
 
 ## 📫 Connectons-nous
+
 
 <div align="center">
 
