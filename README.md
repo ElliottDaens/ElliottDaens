@@ -135,6 +135,6 @@ N'hésitez pas à me contacter ! Je serais ravi de discuter de vos projets ! �
 
 ![](https://img.shields.io/badge/Status-Ouvert%20aux%20opportunités-brightgreen?style=flat-square)
 
-⭐ **Si vous aimez mes projets, n'oubliez pas de laisser une star !** ⭐
+⭐ **Si vous aimez mes projets, n'oubliez pas de laisser une étoile !** ⭐
 
 </div>
