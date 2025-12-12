@@ -88,21 +88,17 @@ VPN, Tailscale, Configuration réseau - Infrastructure sécurisée
 
 ## 🏋️ Au-delà du Code
 
-<div align="center">
+🥋 **Jiu-Jitsu Brésilien**
 
-🥋 **Jiu-Jitsu Brésilien** — Entraînement régulier & sparring
+💪 **Musculation**
 
-💪 **Musculation** — Entraînement et progression
+🎮 **Gaming**
 
-🎮 **Gaming** — F1, Pokémon...
+🏎️ **Formule 1**
 
-🏎️ **Formule 1** — Passionate fan
-
-🎥 **Cinéma** — Cinéphile amateur
+🎥 **Cinéma**
 
 🛒 **Tinkering** — Vinted, eBay via Bot Python
-
-</div>
 
 ---
 
@@ -110,9 +106,8 @@ VPN, Tailscale, Configuration réseau - Infrastructure sécurisée
 
 <div align="center">
 
-🔄 Advanced Web Frameworks & Architecture MVC  
-🔄 Infrastructure as Code & Automation  
-🔄 Application Scalability & Optimization
+🔄 Frameworks Web Avancés & Architecture MVC
+🔄 Automatisation Serveur
 
 </div>
 
