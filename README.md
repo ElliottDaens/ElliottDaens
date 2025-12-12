@@ -114,19 +114,6 @@ VPN, Tailscale, Configuration réseau - Infrastructure sécurisée
 
 ---
 
-## 📊 GitHub Stats
-
-
-<div align="center">
-
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ElliottDaens&show_icons=true&theme=dark&bg_color=1a1b27&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&border_color=30363d)](https://github.com/ElliottDaens)
-
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ElliottDaens&layout=compact&theme=dark&bg_color=1a1b27&title_color=58a6ff&text_color=c9d1d9&border_color=30363d)](https://github.com/ElliottDaens)
-
-</div>
-
----
-
 ## 📫 Connectons-nous
 
 
