@@ -2,7 +2,7 @@
 
 <div align="center">
 
-### Etudiant en DEUST WMI
+### Etudiant en DEUST WMI - Web - Design
 
 [![GitHub](https://img.shields.io/badge/GitHub-ElliottDaens-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ElliottDaens)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Elliott%20Daens-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/elliott-daens-906b8b32a/)
