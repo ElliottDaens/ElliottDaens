@@ -68,8 +68,6 @@ Je maîtrise les technologies **frontend et backend** et j'ai un intérêt parti
 
 ## 🎯 Ce que je fais
 
-<div align="center">
-
 🔨 **Développement Full-Stack**  
 HTML/CSS/JS + PHP/MySQL - Applications robustes et performantes
 
@@ -81,8 +79,6 @@ Prometheus, Grafana - Surveillance et optimisation des systèmes
 
 🔐 **Network & Sécurité**  
 VPN, Tailscale, Configuration réseau - Infrastructure sécurisée
-
-</div>
 
 ---
 
