@@ -58,9 +58,9 @@ Je maîtrise les technologies **frontend et backend** et j'ai un intérêt parti
 | 🎨 Frontend | ⚙️ Backend | 🐳 Infrastructure |
 |:---|:---|:---|
 | HTML5 | PHP | Docker & Compose |
-| CSS3 | Node.js | Linux Administration |
-| JavaScript | REST APIs | Monitoring & Logs |
-| UI/UX Design | Database Design | Network Configuration |
+| CSS3 | Node.js | Linux |
+| JavaScript |  | Monitoring & Logs |
+| UI/UX Design | BDD | Configuration Réseaux |
 
 </div>
 
