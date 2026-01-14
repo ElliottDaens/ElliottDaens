@@ -1,361 +1,80 @@
 <div align="center">
 
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
-<!-- ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ HEADER ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
+# Elliott Daens
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8B5CF6,50:6366F1,100:3B82F6&height=200&section=header&text=Elliott%20Daens&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Designer%20%26%20Développeur%20Full-Stack&descSize=18&descAlignY=55" width="100%"/>
+**Designer & Développeur Full-Stack**
 
 <br/>
 
-<!-- Badge animé -->
-<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=600&size=24&duration=4000&pause=1000&color=8B5CF6&center=true&vCenter=true&multiline=true&repeat=true&width=500&height=60&lines=%E2%9C%A8+Crafting+Pixels+%26+Code;%F0%9F%8E%A8+Where+Design+Meets+Development" alt="Typing SVG" />
-
-<br/><br/>
-
-<!-- Réseaux sociaux stylisés -->
-<a href="https://github.com/ElliottDaens">
-<img src="https://img.shields.io/badge/GitHub-8B5CF6?style=for-the-badge&logo=github&logoColor=white&labelColor=1a1a2e"/>
-</a>
-<img src="https://img.shields.io/badge/·-1a1a2e?style=for-the-badge"/>
-<a href="https://www.linkedin.com/in/elliott-daens-906b8b32a/">
-<img src="https://img.shields.io/badge/LinkedIn-6366F1?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1a1a2e"/>
-</a>
-<img src="https://img.shields.io/badge/·-1a1a2e?style=for-the-badge"/>
-<a href="mailto:daenselliott691@gmail.com">
-<img src="https://img.shields.io/badge/Email-3B82F6?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1a1a2e"/>
-</a>
-
-<br/><br/>
-
-![Visiteurs](https://komarev.com/ghpvc/?username=ElliottDaens&color=8B5CF6&style=flat-square&label=✨%20Visiteurs)
-
-</div>
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ElliottDaens)
+&nbsp;
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/elliott-daens-906b8b32a/)
+&nbsp;
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:daenselliott691@gmail.com)
 
 <br/>
-
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
-<!-- ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ À PROPOS ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
-
-<div align="center">
-
-## ◈ &nbsp; À &nbsp; P R O P O S &nbsp; ◈
-
-<br/>
-
-<table>
-<tr>
-<td width="50%">
-
-<img src="https://img.shields.io/badge/📍_France-1a1a2e?style=flat-square"/>
-<img src="https://img.shields.io/badge/🎓_DEUST_WMI-1a1a2e?style=flat-square"/>
-
-<br/><br/>
-
-### 🎨 &nbsp; L'œil du Designer
-
-*Je vois les détails invisibles.*<br/>
-*Je crée des expériences visuelles*<br/>
-*qui captivent et qui marquent.*
-
-</td>
-<td width="50%">
-
-<img src="https://img.shields.io/badge/💼_Freelance-1a1a2e?style=flat-square"/>
-<img src="https://img.shields.io/badge/🚀_Disponible-8B5CF6?style=flat-square"/>
-
-<br/><br/>
-
-### 💻 &nbsp; La rigueur du Dev
-
-*J'écris du code propre et élégant.*<br/>
-*Je construis des solutions robustes*<br/>
-*qui fonctionnent parfaitement.*
-
-</td>
-</tr>
-</table>
-
-<br/>
-
-> ### *« Le design sans code est une maquette. Le code sans design est un produit brut.*
-> ### *Les deux ensemble ? C'est de la magie. »* ✨
-
-</div>
-
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:8B5CF6,100:3B82F6&height=3" width="100%"/>
-
-<br/>
-
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
-<!-- ░░░░░░░░░░░░░░░░░░░░░░░░░░░░ COMPÉTENCES DESIGN ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
-
-<div align="center">
-
-## ◈ &nbsp; D E S I G N &nbsp; ◈
-
-<br/>
-
-<img src="https://skillicons.dev/icons?i=figma,ps,ai,ae,pr&theme=dark&perline=5" />
-
-<br/><br/>
-
-<table>
-<tr>
-<td align="center" width="25%">
-<img src="https://img.shields.io/badge/UI%2FUX-8B5CF6?style=for-the-badge&logoColor=white"/>
-<br/><br/>
-<strong>Interfaces</strong><br/>
-<sub>Modernes & intuitives</sub>
-</td>
-<td align="center" width="25%">
-<img src="https://img.shields.io/badge/BRANDING-6366F1?style=for-the-badge&logoColor=white"/>
-<br/><br/>
-<strong>Identité Visuelle</strong><br/>
-<sub>Logos & chartes graphiques</sub>
-</td>
-<td align="center" width="25%">
-<img src="https://img.shields.io/badge/MOTION-3B82F6?style=for-the-badge&logoColor=white"/>
-<br/><br/>
-<strong>Animation</strong><br/>
-<sub>Motion design & vidéo</sub>
-</td>
-<td align="center" width="25%">
-<img src="https://img.shields.io/badge/PRINT-0EA5E9?style=for-the-badge&logoColor=white"/>
-<br/><br/>
-<strong>Print Design</strong><br/>
-<sub>Supports imprimés</sub>
-</td>
-</tr>
-</table>
-
-</div>
-
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:8B5CF6,100:3B82F6&height=3" width="100%"/>
-
-<br/>
-
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
-<!-- ░░░░░░░░░░░░░░░░░░░░░░░░░░░░ COMPÉTENCES DEV ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
-
-<div align="center">
-
-## ◈ &nbsp; D É V E L O P P E M E N T &nbsp; ◈
-
-<br/>
-
-### ▸ &nbsp; Frontend
-
-<img src="https://skillicons.dev/icons?i=html,css,sass,js,tailwind&theme=dark&perline=5" />
-
-<br/><br/>
-
-### ▸ &nbsp; Backend
-
-<img src="https://skillicons.dev/icons?i=php,nodejs,python,mysql,mongodb&theme=dark&perline=5" />
-
-<br/><br/>
-
-### ▸ &nbsp; DevOps & Infra
-
-<img src="https://skillicons.dev/icons?i=docker,linux,git,github,vscode&theme=dark&perline=5" />
-
-<br/><br/>
-
-<table>
-<tr>
-<td align="center" width="33%">
-<img src="https://img.shields.io/badge/●-8B5CF6?style=for-the-badge"/>
-<br/>
-<strong>Full-Stack</strong><br/>
-<sub>Applications web complètes</sub>
-</td>
-<td align="center" width="33%">
-<img src="https://img.shields.io/badge/●-6366F1?style=for-the-badge"/>
-<br/>
-<strong>APIs</strong><br/>
-<sub>REST & architecture propre</sub>
-</td>
-<td align="center" width="33%">
-<img src="https://img.shields.io/badge/●-3B82F6?style=for-the-badge"/>
-<br/>
-<strong>Infrastructure</strong><br/>
-<sub>Docker, Linux, Monitoring</sub>
-</td>
-</tr>
-</table>
-
-</div>
-
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:8B5CF6,100:3B82F6&height=3" width="100%"/>
-
-<br/>
-
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
-<!-- ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ SERVICES ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
-
-<div align="center">
-
-## ◈ &nbsp; S E R V I C E S &nbsp; ◈
-
-<br/>
-
-<table>
-<tr>
-<td align="center" width="50%">
-
-### 🎨 &nbsp; Design
-
-<br/>
-
-```
-┌────────────────────────────────┐
-│                                │
-│   ▪ Création d'interfaces     │
-│   ▪ Identité de marque        │
-│   ▪ Motion & Animation        │
-│   ▪ Prototypage Figma         │
-│   ▪ Supports print & web      │
-│                                │
-└────────────────────────────────┘
-```
-
-</td>
-<td align="center" width="50%">
-
-### 💻 &nbsp; Développement
-
-<br/>
-
-```
-┌────────────────────────────────┐
-│                                │
-│   ▪ Sites web sur-mesure      │
-│   ▪ Applications web          │
-│   ▪ Intégration pixel-perfect │
-│   ▪ APIs & Backend            │
-│   ▪ Déploiement & hosting     │
-│                                │
-└────────────────────────────────┘
-```
-
-</td>
-</tr>
-</table>
-
-</div>
-
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:8B5CF6,100:3B82F6&height=3" width="100%"/>
-
-<br/>
-
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
-<!-- ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ STATS ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
-
-<div align="center">
-
-## ◈ &nbsp; S T A T I S T I Q U E S &nbsp; ◈
-
-<br/>
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=ElliottDaens&show_icons=true&hide_border=true&bg_color=0d1117&title_color=8B5CF6&icon_color=6366F1&text_color=c9d1d9&ring_color=8B5CF6" />
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=ElliottDaens&hide_border=true&background=0d1117&ring=8B5CF6&fire=6366F1&currStreakLabel=8B5CF6&sideLabels=c9d1d9&currStreakNum=c9d1d9&dates=6e7681" />
-
-<br/>
-
-<img width="35%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ElliottDaens&layout=compact&hide_border=true&bg_color=0d1117&title_color=8B5CF6&text_color=c9d1d9" />
-
-</div>
-
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:8B5CF6,100:3B82F6&height=3" width="100%"/>
-
-<br/>
-
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
-<!-- ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ HOBBIES ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
-
-<div align="center">
-
-## ◈ &nbsp; E N &nbsp; D E H O R S &nbsp; D U &nbsp; C O D E &nbsp; ◈
-
-<br/>
-
-<img src="https://img.shields.io/badge/🥋_JJB-8B5CF6?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/💪_Musculation-6366F1?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/🏎️_F1-3B82F6?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/🎮_Gaming-0EA5E9?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/🎥_Cinéma-06B6D4?style=for-the-badge"/>
-
-</div>
-
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:8B5CF6,100:3B82F6&height=3" width="100%"/>
-
-<br/>
-
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
-<!-- ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ CONTACT ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
-
-<div align="center">
-
-## ◈ &nbsp; C O N T A C T &nbsp; ◈
-
-<br/>
-
-### 💬 &nbsp; Un projet ? Une idée ? Discutons-en !
-
-<br/>
-
-<a href="https://github.com/ElliottDaens">
-<img src="https://img.shields.io/badge/GitHub-8B5CF6?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-&nbsp;&nbsp;
-<a href="https://www.linkedin.com/in/elliott-daens-906b8b32a/">
-<img src="https://img.shields.io/badge/LinkedIn-6366F1?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-&nbsp;&nbsp;
-<a href="mailto:daenselliott691@gmail.com">
-<img src="https://img.shields.io/badge/Email-3B82F6?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
-
-<br/><br/>
-
-<img src="https://img.shields.io/badge/🟢%20DISPONIBLE%20POUR%20COLLABORATIONS-0d1117?style=for-the-badge&labelColor=8B5CF6"/>
-
-<br/><br/>
 
 ---
 
 <br/>
 
-<sub>
+### 🎨 &nbsp; Design
 
-**Designed** with 🎨 **&** **Built** with 💻 **by Elliott Daens**
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
+![Photoshop](https://img.shields.io/badge/Photoshop-31A8FF?style=flat-square&logo=adobephotoshop&logoColor=white)
+![Illustrator](https://img.shields.io/badge/Illustrator-FF9A00?style=flat-square&logo=adobeillustrator&logoColor=white)
+![After Effects](https://img.shields.io/badge/After%20Effects-9999FF?style=flat-square&logo=adobeaftereffects&logoColor=white)
+![Premiere Pro](https://img.shields.io/badge/Premiere-9999FF?style=flat-square&logo=adobepremierepro&logoColor=white)
 
-*— Où chaque pixel a un but —*
+<br/>
 
-</sub>
+### 💻 &nbsp; Frontend
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![SASS](https://img.shields.io/badge/SASS-CC6699?style=flat-square&logo=sass&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+
+<br/>
+
+### ⚙️ &nbsp; Backend
+
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+
+<br/>
+
+### 🛠️ &nbsp; DevOps
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
+
+<br/>
+
+---
+
+<br/>
+
+### 📍 &nbsp; France &nbsp; · &nbsp; 🎓 &nbsp; DEUST WMI &nbsp; · &nbsp; 🟢 &nbsp; Disponible
+
+<br/>
+
+*« Le design attire l'œil. Le code fait fonctionner. Je fais les deux. »*
+
+<br/>
+
+---
+
+<br/>
+
+**🥋 JJB** &nbsp; · &nbsp; **💪 Musculation** &nbsp; · &nbsp; **🏎️ F1** &nbsp; · &nbsp; **🎮 Gaming** &nbsp; · &nbsp; **🎥 Cinéma**
 
 <br/>
 
 </div>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8B5CF6,50:6366F1,100:3B82F6&height=120&section=footer" width="100%"/>
