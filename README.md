@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=500&size=22&pause=1000&color=6366F1&center=true&vCenter=true&width=435&lines=Etudiant+en+DEUST+WMI;Web+%26+Design;Full-Stack+Developer" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=500&size=22&pause=1000&color=6366F1&center=true&vCenter=true&width=435&lines=Etudiant+en+DEUST+WMI;Web+%26+Design;Full-Stack+Developer;Docker+%26+Self-Hosting+Enthusiast" alt="Typing SVG" />
 
 <br/><br/>
 
@@ -14,17 +14,23 @@
 
 `🇫🇷 France` · `💻 Développeur en formation` · `🚀 Passionné tech`
 
-</div>
+<img src="https://komarev.com/ghpvc/?username=ElliottDaens&label=Profile%20views&color=6366F1&style=flat" alt="Profile views" />
 
-<br/>
+</div>
 
 <br/>
 
 ## 🎯 À propos de moi
 
-Je maîtrise les technologies **frontend et backend** et j'ai un intérêt particulier pour **Docker** et la **création / maintenance de serveur (NAS ...)**.
+```yaml
+nom:         Elliott Daens
+formation:   DEUST WMI (Web, Multimédia & Informatique)
+focus:       Développement Full-Stack & Self-Hosting
+passions:    Docker, NAS, administration serveur
+objectif:    Construire des infrastructures fiables et des apps performantes
+```
 
-<br/>
+Je maîtrise les technologies **frontend et backend** avec un intérêt particulier pour **Docker**, le **self-hosting** et la **création / maintenance de serveurs (NAS...)**.
 
 <br/>
 
@@ -32,44 +38,59 @@ Je maîtrise les technologies **frontend et backend** et j'ai un intérêt parti
 
 <div align="center">
 
-<br/>
-
 **Frontend**
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-<br/>
-
 **Backend**
 
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
-<br/>
-
-**Infrastructure**
+**Infrastructure & DevOps**
 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Docker Compose](https://img.shields.io/badge/Docker%20Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Portainer](https://img.shields.io/badge/Portainer-13BEF9?style=for-the-badge&logo=portainer&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
 
-<br/>
+**Monitoring & Réseau**
+
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
+![Tailscale](https://img.shields.io/badge/Tailscale-242424?style=for-the-badge&logo=tailscale&logoColor=white)
 
 **Outils**
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Docker Compose](https://img.shields.io/badge/Docker%20Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Portainer](https://img.shields.io/badge/Portainer-13BEF9?style=for-the-badge&logo=portainer&logoColor=white)
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 
 </div>
 
 <br/>
+
+## 📊 Mes Statistiques GitHub
+
+<div align="center">
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=ElliottDaens&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=6366F1&icon_color=6366F1"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ElliottDaens&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1"/>
+
+<br/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=ElliottDaens&theme=tokyonight&hide_border=true&background=0D1117&ring=6366F1&fire=6366F1&currStreakLabel=6366F1"/>
+
+<br/><br/>
+
+<img src="https://github-profile-trophy.vercel.app/?username=ElliottDaens&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&column=7"/>
+
+</div>
 
 <br/>
 
@@ -80,55 +101,54 @@ Je maîtrise les technologies **frontend et backend** et j'ai un intérêt parti
 | 🎨 Frontend | ⚙️ Backend | 🐳 Infrastructure |
 |:---:|:---:|:---:|
 | HTML5 | PHP | Docker & Compose |
-| CSS3 | Node.js | Linux |
+| CSS3 | Node.js | Linux / Ubuntu |
 | JavaScript | MySQL | Monitoring & Logs |
-| UI/UX Design | BDD | Configuration Réseaux |
+| UI/UX Design | Bases de données | Configuration Réseau |
 
 </div>
 
 <br/>
 
-<br/>
-<div align="center">
-  
 ## 🎯 Ce que je fais
+
+<div align="center">
 
 <table>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-🔨 **Développement Full-Stack**  
-HTML/CSS/JS + PHP/MySQL  
+🔨 **Développement Full-Stack**
+HTML/CSS/JS + PHP/MySQL
 Applications robustes et performantes
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
-🐳 **Infrastructures**  
-Docker, Compose, Linux Administration  
+🐳 **Infrastructures**
+Docker, Compose, administration Linux
 Déploiement & gestion
 
 </td>
 </tr>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-📊 **Monitoring & Optimisation**  
-Prometheus, Grafana  
+📊 **Monitoring & Optimisation**
+Prometheus, Grafana
 Surveillance et optimisation des systèmes
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
-🔐 **Network & Sécurité**  
-VPN, Tailscale, Configuration réseau  
+🔐 **Réseau & Sécurité**
+VPN, Tailscale, configuration réseau
 Infrastructure sécurisée
 
 </td>
 </tr>
 </table>
-<div align="center">
-<br/>
+
+</div>
 
 <br/>
 
@@ -138,14 +158,9 @@ Infrastructure sécurisée
 
 🥋 **Jiu-Jitsu Brésilien** · 💪 **Musculation** · 🎮 **Gaming** · 🏎️ **Formule 1** · 🎥 **Cinéma**
 
-<br/>
-
-🛒 **Tinkering** — Vinted, eBay via Bot Python
+🛒 **Tinkering** — automatisation Vinted & eBay via un bot Python
 
 </div>
-
-<br/>
-
 
 <br/>
 
@@ -156,9 +171,6 @@ Infrastructure sécurisée
 `🔄 Frameworks Web Avancés & Architecture MVC` · `🔄 Automatisation Serveur`
 
 </div>
-
-<br/>
-
 
 <br/>
 
@@ -183,7 +195,5 @@ Infrastructure sécurisée
 ![Status](https://img.shields.io/badge/🟢_Ouvert_aux_opportunités-6366F1?style=for-the-badge)
 
 </div>
-
-<br/>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=100&section=footer" width="100%"/>
