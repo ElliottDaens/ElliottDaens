@@ -75,25 +75,6 @@ Je maîtrise les technologies **frontend et backend** avec un intérêt particul
 
 <br/>
 
-## 📊 Mes Statistiques GitHub
-
-<div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=ElliottDaens&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=6366F1&icon_color=6366F1"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ElliottDaens&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1"/>
-
-<br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=ElliottDaens&theme=tokyonight&hide_border=true&background=0D1117&ring=6366F1&fire=6366F1&currStreakLabel=6366F1"/>
-
-<br/><br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=ElliottDaens&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&column=7"/>
-
-</div>
-
-<br/>
-
 ## 🔥 Compétences Principales
 
 <div align="center">
