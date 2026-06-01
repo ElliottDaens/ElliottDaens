@@ -18,8 +18,6 @@
 
 <br/>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
 <br/>
 
 ## 🎯 À propos de moi
@@ -27,8 +25,6 @@
 Je maîtrise les technologies **frontend et backend** et j'ai un intérêt particulier pour **Docker** et la **création / maintenance de serveur (NAS ...)**.
 
 <br/>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 <br/>
 
