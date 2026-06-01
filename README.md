@@ -89,7 +89,7 @@ Je maîtrise les technologies **frontend et backend** et j'ai un intérêt parti
 <br/>
 
 <br/>
-
+<div align="center">
 ## 🎯 Ce que je fais
 
 <table>
@@ -126,7 +126,7 @@ Infrastructure sécurisée
 </td>
 </tr>
 </table>
-
+<div align="center">
 <br/>
 
 <br/>
