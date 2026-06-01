@@ -74,6 +74,7 @@ Je maîtrise les technologies **frontend et backend** avec un intérêt particul
 </div>
 
 <br/>
+
 ## 🔥 Compétences Principales
 
 <div align="center">
@@ -88,6 +89,7 @@ Je maîtrise les technologies **frontend et backend** avec un intérêt particul
 </div>
 
 <br/>
+
 ## 🎯 Ce que je fais
 
 <div align="center">
@@ -130,6 +132,7 @@ Infrastructure sécurisée
 </div>
 
 <br/>
+
 ## 🏋️ Au-delà du Code
 
 <div align="center">
@@ -151,6 +154,7 @@ Infrastructure sécurisée
 </div>
 
 <br/>
+
 ## 📫 Connectons-nous
 
 <div align="center">
