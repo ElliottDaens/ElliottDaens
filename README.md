@@ -71,8 +71,6 @@ Je maîtrise les technologies **frontend et backend** et j'ai un intérêt parti
 
 <br/>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
 <br/>
 
 ## 🔥 Compétences Principales
@@ -89,8 +87,6 @@ Je maîtrise les technologies **frontend et backend** et j'ai un intérêt parti
 </div>
 
 <br/>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 <br/>
 
@@ -133,8 +129,6 @@ Infrastructure sécurisée
 
 <br/>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
 <br/>
 
 ## 🏋️ Au-delà du Code
@@ -151,7 +145,6 @@ Infrastructure sécurisée
 
 <br/>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 <br/>
 
@@ -165,7 +158,6 @@ Infrastructure sécurisée
 
 <br/>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 <br/>
 
