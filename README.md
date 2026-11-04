@@ -108,14 +108,8 @@ Des modèles sur le sport, **mesurés contre une référence simple** plutôt qu
 <!-- Mise à jour chaque nuit par .github/workflows/metrics.yml -->
 <p>
 <img src="metrics/languages.svg" width="49%" alt="Langages les plus utilisés"/>
-<img src="metrics/habits.svg" width="49%" alt="Habitudes de code"/>
+<img src="metrics/isocalendar.svg" width="49%" alt="Calendrier isométrique des contributions"/>
 </p>
-
-<details>
-<summary><b>Mon année en 3D</b></summary>
-<br/>
-<img src="metrics/isocalendar.svg" alt="Calendrier isométrique des contributions"/>
-</details>
 
 ## Contact
 
