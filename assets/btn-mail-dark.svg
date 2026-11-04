@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="290" height="56" viewBox="0 0 290 56" role="img" aria-label="Écrivez-moi : daenselliott691@gmail.com">
+  <title>Écrivez-moi</title>
+  <defs>
+    <linearGradient id="gbtn" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#818cf8"/><stop offset=".55" stop-color="#c084fc"/><stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <pattern id="pbtn" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#ffffff" stroke-opacity="0.035"/>
+    </pattern>
+    <filter id="bbtn" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="60"/></filter>
+  </defs>
+  <style>.s{font-family:'Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif}</style>
+  <rect x=".5" y=".5" width="289" height="55" rx="27.5" fill="#161b22" stroke="#30363d"/>
+  <circle cx="30" cy="28" r="11" fill="url(#gbtn)"/>
+  <text x="52" y="25" class="s" font-size="16" font-weight="700" fill="#e6edf3">Écrivez-moi</text>
+  <text x="52" y="43" class="s" font-size="12.5" fill="#8b949e">daenselliott691@gmail.com</text>
+</svg>

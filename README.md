@@ -1,176 +1,129 @@
-<!-- En-tête -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=170&section=header&text=Elliott%20Daens&fontSize=44&fontColor=fff&animation=twinkling&fontAlignY=35&desc=D%C3%A9veloppeur%20web%20freelance%20%C2%B7%20Full-stack%20%C2%B7%20Self-hosting&descAlignY=58&descSize=16" width="100%" alt="Elliott Daens — développeur web freelance"/>
+<!-- Visuels faits main : scripts/build_assets.py génère assets/*.svg (clair + sombre) -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg"/>
+  <img src="assets/hero-light.svg" width="100%" alt="Elliott Daens, développeur web freelance full-stack. Disponible pour missions."/>
+</picture>
 
-<div align="center">
+<br/>
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=6366F1&center=true&vCenter=true&width=520&lines=D%C3%A9veloppeur+web+freelance;Symfony+%C2%B7+Django+%C2%B7+Laravel+%C2%B7+Node.js;IA+%3A+RAG+%C2%B7+recherche+s%C3%A9mantique+%C2%B7+Mistral;Homelab+%3A+NAS+Linux+%2B+Docker;Machine+learning+%3A+pronostics+F1+%26+foot;Python+%3A+FastAPI+%C2%B7+Flask+%C2%B7+Streamlit" alt="Ce que je fais"/></a>
+Je conçois et livre des **applis web complètes** : back **Symfony, Django, Laravel ou Node**, front moderne, **IA intégrée** (RAG, recherche sémantique, agents), puis déploiement **Docker** jusqu'en prod.
+En ce moment, en mission avec **Coteo** sur [Opalenews](https://www.opalenews.com/) et Contacto.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Elliott%20Daens-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/elliott-daens-906b8b32a/)
-[![Email](https://img.shields.io/badge/Email-me%20contacter-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:daenselliott691@gmail.com)
-![Statut](https://img.shields.io/badge/Freelance-disponible%20pour%20missions-22C55E?style=flat-square&logo=rocket&logoColor=white)
-![Vues](https://komarev.com/ghpvc/?username=ElliottDaens&label=Vues&color=6366F1&style=flat-square)
+## Projets
 
-</div>
+<sub>Dépôts privés (projets clients et prod perso). Démo ou visite du code sur demande.</sub>
 
-### 👋 Salut, moi c'est Elliott
+<p>
+<a href="https://www.opalenews.com/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-opalenews-dark.svg"/><img src="assets/card-opalenews-light.svg" width="58%" alt="Opalenews : événements de la Côte d'Opale, recherche sémantique et assistant IA. Symfony 8. En ligne."/></picture></a>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-contacto-dark.svg"/><img src="assets/card-contacto-light.svg" width="40%" alt="Contacto : mise en relation pour réseaux d'entreprises. Django 6, Celery, Redis."/></picture>
+</p>
+<p>
+<a href="https://runtracker.daens-elliott-projet-1.fr"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-runtracker-dark.svg"/><img src="assets/card-runtracker-light.svg" width="40%" alt="RunTracker : suivi de course à pied, import Strava et GPX, coach IA. En ligne."/></picture></a>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-tunnelwa-dark.svg"/><img src="assets/card-tunnelwa-light.svg" width="58%" alt="TunnelWa : SaaS multi-clients de séquences WhatsApp Business via l'API Meta. Node, PostgreSQL, React."/></picture>
+</p>
+<p>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-pitwall-dark.svg"/><img src="assets/card-pitwall-light.svg" width="58%" alt="Pit Wall et Paddock : PWA temps réel F1 et MotoGP avec pronostics ML."/></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-pixeloffice-dark.svg"/><img src="assets/card-pixeloffice-light.svg" width="40%" alt="Pixel Office : bureau pixel art des sessions Claude Code, MCP et WebSocket."/></picture>
+</p>
 
-Développeur web **freelance full-stack**, basé en France 🇫🇷.
-Je construis des applis web de bout en bout — du back **Symfony / Django / Laravel** jusqu'au déploiement **Docker** et à la mise en prod.
+<details>
+<summary><b>Plus de projets</b></summary>
+<br/>
 
-- 💼 En mission avec **Coteo** : [**Opalenews**](https://www.opalenews.com/) (en ligne) et **Contacto**
-- 🚧 En chantier : un annuaire des pros de l'habitat en Hauts-de-France (pas encore en ligne)
-- 🏠 Je fais tourner un **homelab** : NAS Linux, applis et bots en conteneurs Docker, VPN Tailscale, sauvegardes chiffrées
-- 🤖 J'expérimente le **machine learning** (pronostics F1 et football) et les **agents IA** (Claude Code, MCP)
-- 🌱 J'apprends : architecture MVC avancée, tests, CI/CD avec GitHub Actions
-- 💬 Parlez-moi de : self-hosting, Docker, F1 🏎️, jiu-jitsu brésilien 🥋
+| Projet | Ce que c'est | Stack |
+|:--|:--|:--|
+| **Bot Vinted** | Pousse les nouvelles annonces Vinted sur Telegram en quelques secondes | aiogram 3 · httpx HTTP/2 · pydantic |
+| **Jeu de fléchettes** | x01, Cricket, Shanghai, Killer… robots de niveau 1 à 10, stats, bilan IA | Flask · SQLite · JS |
+| **Go Akademi** | Site vitrine d'un club de jiu-jitsu brésilien à Calais, avec back-office | Laravel 12 · Tailwind 4 |
+| **L'Atelier** | Prise de rendez-vous en ligne : créneaux, espace client et admin | Laravel 13 · PHPUnit |
+| **Bot Discord** | Modération, niveaux, classements, cartes de rang générées | discord.js 14 · SQLite |
+| **Prompt Master** | Réécrit un prompt brut selon le guide Anthropic | FastAPI · Groq |
+| **todo-relay** | Une todo par projet, saisie au téléphone, lue par Claude Code | FastAPI · Streamlit · MCP |
+| **Perso Hub** | Habitudes, tâches, watchlist ciné (Letterboxd, TMDB) | Streamlit · plotly |
 
-```ts
-const elliott = {
-  role: "Développeur web freelance",
-  client: "Coteo",
-  formation: "DEUST WMI — Web, Multimédia & Informatique",
-  stack: ["PHP/Symfony", "Python/Django", "Laravel", "JavaScript", "Docker"],
-  ia: ["RAG", "embeddings", "Gemini", "Mistral"],
-  aime: ["les applis rapides", "les serveurs qui ne tombent jamais", "les données"],
-  horsCode: ["JJB", "muscu", "F1", "cinéma", "gaming"],
-};
-```
+</details>
 
-## 🛠️ Stack
+## Homelab
 
-<div align="center">
-
-| | |
-|:--|:--|
-| **Front** | <img src="https://skillicons.dev/icons?i=html,css,js,tailwind&theme=dark" alt="HTML, CSS, JavaScript, Tailwind"/> |
-| **Back** | <img src="https://skillicons.dev/icons?i=php,symfony,laravel,python,django,fastapi,flask,nodejs&theme=dark" alt="PHP, Symfony, Laravel, Python, Django, FastAPI, Flask, Node.js"/> |
-| **Données** | <img src="https://skillicons.dev/icons?i=postgres,mysql,sqlite,redis&theme=dark" alt="PostgreSQL, MySQL, SQLite, Redis"/> |
-| **Infra** | <img src="https://skillicons.dev/icons?i=docker,nginx,linux,ubuntu,githubactions&theme=dark" alt="Docker, Nginx, Linux, Ubuntu, GitHub Actions"/> |
-| **Monitoring** | <img src="https://skillicons.dev/icons?i=prometheus,grafana,homeassistant&theme=dark" alt="Prometheus, Grafana, Home Assistant"/> |
-| **Outils** | <img src="https://skillicons.dev/icons?i=git,github,vscode&theme=dark" alt="Git, GitHub, VS Code"/> |
-
-</div>
-
-## 🚀 Projets phares
-
-> Mes dépôts sont privés (projets clients et prod perso). Visite du code ou démo sur demande 👉 [me contacter](mailto:daenselliott691@gmail.com).
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🤝 Contacto · *avec Coteo*
-Plateforme de mise en relation pour clubs et réseaux d'entreprises : profils, messagerie, fil d'actu, **campagnes e-mail et relances automatiques**, IA **Mistral**.
-<br/><sub>Django · Celery · MySQL · Tailwind · Docker</sub>
-
-</td>
-<td width="50%" valign="top">
-
-### 🌊 [Opalenews](https://www.opalenews.com/) · *avec Coteo*
-Les événements de la Côte d'Opale : **recherche sémantique**, **assistant IA (RAG)**, carte interactive, site en FR / EN / NL, newsletter. **En ligne.**
-<br/><sub>Symfony 8 · PHP 8.4 · PostgreSQL · Gemini · Pinecone · CI/CD</sub>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🏎️ Pit Wall
-Appli F1 : calendrier, classements et **pronostics par machine learning** du vainqueur de chaque Grand Prix.
-<br/><sub>Python · ML · Docker</sub>
-
-</td>
-<td width="50%" valign="top">
-
-### ⚽ Virage & Étoiles
-Pronostics **Ligue 1** et **Ligue des champions** : modèles ML + deux applis web servies par le NAS.
-<br/><sub>Python · ML · Streamlit</sub>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 👾 Pixel Office
-Un bureau en **pixel art** où chaque session Claude Code devient un avatar : suivi en direct, chat et courrier entre agents.
-<br/><sub>JavaScript · MCP</sub>
-
-</td>
-<td width="50%" valign="top">
-
-### 🛒 Bot Vinted → Telegram
-Surveille des recherches Vinted et envoie les nouvelles annonces sur Telegram en quelques secondes.
-<br/><sub>Python · Telegram API</sub>
-
-</td>
-</tr>
-</table>
-
-## 🏠 Mon homelab
-
-Tout ce que je développe tourne en prod chez moi, sur un NAS Linux piloté en Docker :
+Tout mon perso tourne en prod sur un **NAS Ubuntu : 57 conteneurs Docker**. Le PC (RTX 5070) sert à entraîner les modèles.
 
 ```mermaid
 flowchart LR
-    U["💻 PC / 📱 mobile"] -- "VPN Tailscale" --> NAS
-    subgraph NAS["🗄️ NAS Linux"]
+    PC["💻 PC · RTX 5070<br/>entraînement ML"]
+    TEL["📱 Téléphone"]
+    PC & TEL -- "VPN Tailscale" --> NAS
+
+    subgraph NAS["🗄️ NAS Ubuntu · 57 conteneurs Docker"]
         direction TB
-        RP["HTTPS"] --> APPS["Applis web<br/>Pit Wall · Virage · Paddock"]
-        RP --> DASH["Dashboards<br/>Streamlit"]
-        BOTS["Bots<br/>Telegram · Discord · Vinted"]
-        MON["Prometheus + Grafana"] -. surveille .-> APPS
+        APPS["🌐 Mes applis<br/>Pit Wall · Paddock · foot · Contacto<br/>TunnelWa · Pixel Office · Perso Hub"]
+        BOTS["🤖 Bots<br/>Vinted · Discord · Telegram"]
+        DOMO["🏠 Domotique<br/>Home Assistant · Zigbee2MQTT<br/>Mosquitto · Frigate · Matter"]
+        MEDIA["🎬 Médias<br/>Plex · Tautulli · Kometa · Immich"]
+        SEC["🔐 Réseau & sécurité<br/>AdGuard Home · Vaultwarden"]
+        SUP["📊 Supervision<br/>System Hub · Glances · Scrutiny<br/>Portainer · Diun · watchdogs"]
     end
-    NAS -- "notifications" --> TG["📨 Telegram"]
-    U -- "sauvegardes restic chiffrées" --> NAS
-    U <-- "Syncthing" --> NAS
+
+    PC -- "restic chiffré, chaque nuit" --> NAS
+    PC <-- "Syncthing" --> NAS
+    SUP -- "alertes" --> TG["📨 Telegram · ntfy"]
+    DOMO -- "détection de personne" --> TG
 ```
 
-## 📊 Stats GitHub
+<details>
+<summary><b>Ce qui tourne tout seul</b></summary>
+<br/>
 
-<div align="center">
+- **System Hub** (fait maison) : CPU, RAM, GPU, disques et conteneurs du NAS **et** du PC, avec historique
+- **Watchdogs** : sauvegarde du PC absente depuis 48 h, capteurs Home Assistant, Zigbee hors ligne, disque à 90 %
+- **Santé des disques** (Scrutiny) et **nouvelles versions d'images** (Diun)
+- **Ménage Docker** chaque semaine, **ventilateur GPU** piloté par script (NVML)
+- **Tri des médias** automatique dès qu'un fichier arrive
+- **Sessions Claude Code** sur le NAS pour l'administration, toutes visibles dans Pixel Office
 
-<!-- Mises à jour chaque nuit par .github/workflows/metrics.yml -->
-<img src="metrics/languages.svg" alt="Langages les plus utilisés" width="49%"/>
-<img src="metrics/habits.svg" alt="Habitudes de code" width="49%"/>
+</details>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=ElliottDaens&theme=github-dark-blue&hide_border=true&background=00000000&locale=fr"/>
-  <img src="https://streak-stats.demolab.com?user=ElliottDaens&hide_border=true&background=00000000&locale=fr" alt="Série de contributions"/>
-</picture>
+## Machine learning
+
+Des modèles sur le sport, **mesurés contre une référence simple** plutôt que vendus au pourcentage flatteur.
+
+| | Modèles | Résultat |
+|:--|:--|:--|
+| **F1** | Régression logistique, XGBoost calibré, Elo, Monte-Carlo (titre) | 2022-2025, 92 GP : **62 %** de vainqueurs trouvés contre 55 % pour « le poleman gagne » ; log-loss 1,08 contre 1,54 |
+| **Ligue 1 & C1** | Poisson / Dixon-Coles sur les xG, Elo, pi-ratings | Log-loss 0,989 en walk-forward 2016-2025 : **au niveau des bookmakers** (0,983) |
+| **MotoGP** | Régression logistique, gradient boosting | ~30 % de vainqueurs trouvés, contre 18 à 31 % pour les repères simples |
+| **OpenTTD** | Apprentissage par renforcement (PPO masqué) | En cours : 250 M de pas, +545 000 £ en moyenne sur 48 parties |
+
+## Stack
+
+<p>
+<img src="https://skillicons.dev/icons?i=php,symfony,laravel,python,django,fastapi,flask,nodejs,express&theme=dark" height="40" alt="Back : PHP, Symfony, Laravel, Python, Django, FastAPI, Flask, Node.js, Express"/>
+<br/>
+<img src="https://skillicons.dev/icons?i=html,css,js,react,vite,tailwind,postgres,mysql,redis,sqlite&theme=dark" height="40" alt="Front et données : HTML, CSS, JavaScript, React, Vite, Tailwind, PostgreSQL, MySQL, Redis, SQLite"/>
+<br/>
+<img src="https://skillicons.dev/icons?i=docker,linux,nginx,caddy,cloudflare,githubactions,sklearn,pytorch,homeassistant&theme=dark" height="40" alt="Infra et ML : Docker, Linux, Nginx, Caddy, Cloudflare, GitHub Actions, scikit-learn, PyTorch, Home Assistant"/>
+</p>
+
+## Activité
+
+<!-- Mise à jour chaque nuit par .github/workflows/metrics.yml -->
+<p>
+<img src="metrics/languages.svg" width="49%" alt="Langages les plus utilisés"/>
+<img src="metrics/habits.svg" width="49%" alt="Habitudes de code"/>
+</p>
 
 <details>
-<summary><b>🗓️ Mon année en 3D</b></summary>
+<summary><b>Mon année en 3D</b></summary>
 <br/>
 <img src="metrics/isocalendar.svg" alt="Calendrier isométrique des contributions"/>
 </details>
 
-<br/>
+## Contact
 
-<!-- Généré chaque nuit par .github/workflows/snake.yml -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ElliottDaens/ElliottDaens/output/github-snake-dark.svg"/>
-  <img src="https://raw.githubusercontent.com/ElliottDaens/ElliottDaens/output/github-snake.svg" alt="Serpent qui mange mes contributions"/>
-</picture>
+Un site, une appli, une mission freelance ? Je réponds vite.
 
-</div>
+<p>
+<a href="mailto:daenselliott691@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-mail-dark.svg"/><img src="assets/btn-mail-light.svg" height="48" alt="Écrivez-moi : daenselliott691@gmail.com"/></picture></a>
+<a href="https://www.linkedin.com/in/elliott-daens-906b8b32a/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-linkedin-dark.svg"/><img src="assets/btn-linkedin-light.svg" height="48" alt="LinkedIn : Elliott Daens"/></picture></a>
+</p>
 
-## 🏋️ Hors du code
-
-<div align="center">
-
-🥋 **Jiu-jitsu brésilien** · 💪 **Musculation** · 🏎️ **Formule 1** · 🎥 **Cinéma** · 🎮 **Gaming**
-
-</div>
-
-## 📫 On en parle ?
-
-<div align="center">
-
-**Un site, une appli, une mission freelance ?** Écrivez-moi, je réponds vite 🚀
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Elliott%20Daens-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/elliott-daens-906b8b32a/)
-[![Email](https://img.shields.io/badge/Email-daenselliott691%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:daenselliott691@gmail.com)
-
-</div>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=100&section=footer" width="100%" alt=""/>
+<sub>Hors du code : jiu-jitsu brésilien, musculation, Formule 1, cinéma, gaming.</sub>

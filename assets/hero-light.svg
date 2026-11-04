@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-label="Elliott Daens, développeur web freelance">
+  <title>Elliott Daens, développeur web freelance</title>
+  <defs>
+    <linearGradient id="gh" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4f46e5"/><stop offset=".55" stop-color="#9333ea"/><stop offset="1" stop-color="#0891b2"/>
+    </linearGradient>
+    <pattern id="ph" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#000000" stroke-opacity="0.045"/>
+    </pattern>
+    <filter id="bh" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="60"/></filter>
+  </defs>
+  <style>
+    .s{font-family:'Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif} .m{font-family:'JetBrains Mono','Cascadia Code','SF Mono',Consolas,'Liberation Mono',monospace;font-size:15px}
+    .blob{animation:drift 14s ease-in-out infinite alternate}
+    .blob2{animation:drift 18s ease-in-out infinite alternate-reverse}
+    @keyframes drift{from{transform:translate(0,0)}to{transform:translate(60px,30px)}}
+    .cur{animation:blink 1.1s steps(1) infinite}
+    @keyframes blink{50%{opacity:0}}
+    .ln{animation:in .5s ease-out backwards}
+    @keyframes in{from{opacity:0;transform:translateX(-8px)}to{opacity:1;transform:none}}
+    .pulse{transform-box:fill-box;transform-origin:center;animation:pulse 2s ease-out infinite}
+    @keyframes pulse{0%{transform:scale(1);opacity:.6}100%{transform:scale(2.6);opacity:0}}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+  </style>
+  <clipPath id="clip"><rect width="1200" height="400" rx="24"/></clipPath>
+  <g clip-path="url(#clip)">
+    <rect width="1200" height="400" fill="#ffffff"/>
+    <g opacity="0.3" filter="url(#bh)">
+      <circle class="blob" cx="260" cy="70" r="170" fill="#4f46e5"/>
+      <circle class="blob2" cx="1060" cy="380" r="160" fill="#0891b2"/>
+      <circle class="blob" cx="640" cy="440" r="120" fill="#9333ea"/>
+    </g>
+    <rect width="1200" height="400" fill="url(#ph)"/>
+  </g>
+  <rect x=".5" y=".5" width="1199" height="399" rx="23.5" fill="none" stroke="#d0d7de"/>
+
+  <text x="64" y="92" class="m" fill="#59636e">~/elliott $ whoami<tspan class="cur" fill="#0891b2"> ▌</tspan></text>
+  <text x="61" y="174" class="s" font-size="70" font-weight="800" letter-spacing="-2" fill="#1f2328">Elliott Daens</text>
+  <text x="64" y="220" class="s" font-size="26" font-weight="700" fill="url(#gh)">Développeur web freelance · full-stack</text>
+  <text x="64" y="258" class="s" font-size="18" fill="#59636e">Applis web de bout en bout, IA intégrée, déployées en prod sur Docker.</text>
+
+  <rect x="52" y="298" width="240" height="38" rx="19" fill="#f6f8fa" stroke="#d0d7de"/>
+  <circle class="pulse" cx="73" cy="317" r="5" fill="#1a7f37"/>
+  <circle cx="73" cy="317" r="5" fill="#1a7f37"/>
+  <text x="88" y="322" class="s" font-size="15" font-weight="600" fill="#1f2328">Disponible pour missions</text>
+  <rect x="304" y="298" width="124" height="38" rx="19" fill="#f6f8fa" stroke="#d0d7de"/>
+  <text x="366" y="322" class="s" font-size="15" text-anchor="middle" fill="#59636e">France · remote</text>
+
+  <rect x="760" y="70" width="390" height="276" rx="16" fill="#f6f8fa" fill-opacity=".92" stroke="#d0d7de"/>
+  <circle cx="784" cy="94" r="6" fill="#ff5f57"/><circle cx="804" cy="94" r="6" fill="#febc2e"/><circle cx="824" cy="94" r="6" fill="#28c840"/>
+  <text x="955" y="99" class="m" font-size="13" text-anchor="middle" fill="#59636e">stack.sh</text>
+  <line x1="760" y1="114" x2="1150" y2="114" stroke="#d0d7de"/>
+  <text x="790" y="142" class="m" fill="#59636e"># ce que je livre</text>
+    <g class="ln" style="animation-delay:0.60s">
+      <text x="790" y="170" class="m" fill="#0891b2">❯</text>
+      <text x="812" y="170" class="m" fill="#59636e">symfony</text>
+      <text x="898" y="170" class="m" fill="#1f2328">Symfony 8 · PHP 8.4</text>
+    </g>
+    <g class="ln" style="animation-delay:0.95s">
+      <text x="790" y="200" class="m" fill="#0891b2">❯</text>
+      <text x="812" y="200" class="m" fill="#59636e">django</text>
+      <text x="898" y="200" class="m" fill="#1f2328">Django 6 · Celery</text>
+    </g>
+    <g class="ln" style="animation-delay:1.30s">
+      <text x="790" y="230" class="m" fill="#0891b2">❯</text>
+      <text x="812" y="230" class="m" fill="#59636e">laravel</text>
+      <text x="898" y="230" class="m" fill="#1f2328">Laravel 12 / 13</text>
+    </g>
+    <g class="ln" style="animation-delay:1.65s">
+      <text x="790" y="260" class="m" fill="#0891b2">❯</text>
+      <text x="812" y="260" class="m" fill="#59636e">node</text>
+      <text x="898" y="260" class="m" fill="#1f2328">Node · React · Vite</text>
+    </g>
+    <g class="ln" style="animation-delay:2.00s">
+      <text x="790" y="290" class="m" fill="#0891b2">❯</text>
+      <text x="812" y="290" class="m" fill="#59636e">ia</text>
+      <text x="898" y="290" class="m" fill="#1f2328">RAG · Mistral · MCP</text>
+    </g>
+    <g class="ln" style="animation-delay:2.35s">
+      <text x="790" y="320" class="m" fill="#0891b2">❯</text>
+      <text x="812" y="320" class="m" fill="#59636e">infra</text>
+      <text x="898" y="320" class="m" fill="#1f2328">Docker · 57 conteneurs</text>
+    </g>
+</svg>

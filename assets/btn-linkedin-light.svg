@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="230" height="56" viewBox="0 0 230 56" role="img" aria-label="LinkedIn : Elliott Daens">
+  <title>LinkedIn</title>
+  <defs>
+    <linearGradient id="gbtn" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4f46e5"/><stop offset=".55" stop-color="#9333ea"/><stop offset="1" stop-color="#0891b2"/>
+    </linearGradient>
+    <pattern id="pbtn" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#000000" stroke-opacity="0.045"/>
+    </pattern>
+    <filter id="bbtn" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="60"/></filter>
+  </defs>
+  <style>.s{font-family:'Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif}</style>
+  <rect x=".5" y=".5" width="229" height="55" rx="27.5" fill="#f6f8fa" stroke="#d0d7de"/>
+  <circle cx="30" cy="28" r="11" fill="url(#gbtn)"/>
+  <text x="52" y="25" class="s" font-size="16" font-weight="700" fill="#1f2328">LinkedIn</text>
+  <text x="52" y="43" class="s" font-size="12.5" fill="#59636e">Elliott Daens</text>
+</svg>

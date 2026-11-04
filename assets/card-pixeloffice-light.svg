@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="340" viewBox="0 0 480 340" role="img" aria-label="Pixel Office : Un bureau en pixel art où chaque session Claude Code devient un avatar : état en direct, chat, courrier entre agents.">
+  <title>Pixel Office</title>
+  <defs>
+    <linearGradient id="gc5" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4f46e5"/><stop offset=".55" stop-color="#9333ea"/><stop offset="1" stop-color="#0891b2"/>
+    </linearGradient>
+    <pattern id="pc5" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#000000" stroke-opacity="0.045"/>
+    </pattern>
+    <filter id="bc5" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="60"/></filter>
+  </defs>
+  <style>.s{font-family:'Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif} .m{font-family:'JetBrains Mono','Cascadia Code','SF Mono',Consolas,'Liberation Mono',monospace}
+    .dot{animation:p 2s ease-in-out infinite} @keyframes p{50%{opacity:.3}}
+    @media (prefers-reduced-motion:reduce){.dot{animation:none}}</style>
+  <clipPath id="kc5"><rect width="480" height="340" rx="20"/></clipPath>
+  <rect x=".5" y=".5" width="479" height="339" rx="20" fill="#f6f8fa" stroke="#d0d7de"/>
+  <rect width="480" height="4" fill="url(#gc5)" clip-path="url(#kc5)"/>
+  <text x="32" y="56" class="m" font-size="13" font-weight="700" letter-spacing="1.5" fill="url(#gc5)">AGENTS IA</text>
+  <rect x="358" y="36" width="90" height="28" rx="14" fill="none" stroke="#d0d7de"/>
+  <circle class="dot" cx="374" cy="50" r="4.5" fill="#1a7f37"/>
+  <text x="386" y="55" class="s" font-size="13" fill="#59636e">En prod</text>
+  <text x="32" y="106" class="s" font-size="31" font-weight="800" letter-spacing="-.6" fill="#1f2328">Pixel Office</text>
+  <text x="32" y="146" class="s" font-size="17" fill="#59636e"><tspan x="32" dy="0">Un bureau en pixel art où chaque session</tspan><tspan x="32" dy="26">Claude Code devient un avatar : état en</tspan><tspan x="32" dy="26">direct, chat, courrier entre agents.</tspan></text>
+  <rect x="32" y="280" width="56" height="30" rx="15" fill="#eaeef2"/><text x="60.0" y="300" class="m" font-size="13" text-anchor="middle" fill="#1f2328">Node</text><rect x="96" y="280" width="96" height="30" rx="15" fill="#eaeef2"/><text x="144.0" y="300" class="m" font-size="13" text-anchor="middle" fill="#1f2328">WebSocket</text><rect x="200" y="280" width="48" height="30" rx="15" fill="#eaeef2"/><text x="224.0" y="300" class="m" font-size="13" text-anchor="middle" fill="#1f2328">MCP</text><rect x="256" y="280" width="48" height="30" rx="15" fill="#eaeef2"/><text x="280.0" y="300" class="m" font-size="13" text-anchor="middle" fill="#1f2328">PWA</text>
+</svg>

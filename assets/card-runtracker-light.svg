@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="340" viewBox="0 0 480 340" role="img" aria-label="RunTracker : Suivi de course à pied : sorties, records, objectifs, import Strava et GPX, coach IA qui rédige les bilans.">
+  <title>RunTracker</title>
+  <defs>
+    <linearGradient id="gc2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4f46e5"/><stop offset=".55" stop-color="#9333ea"/><stop offset="1" stop-color="#0891b2"/>
+    </linearGradient>
+    <pattern id="pc2" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#000000" stroke-opacity="0.045"/>
+    </pattern>
+    <filter id="bc2" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="60"/></filter>
+  </defs>
+  <style>.s{font-family:'Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif} .m{font-family:'JetBrains Mono','Cascadia Code','SF Mono',Consolas,'Liberation Mono',monospace}
+    .dot{animation:p 2s ease-in-out infinite} @keyframes p{50%{opacity:.3}}
+    @media (prefers-reduced-motion:reduce){.dot{animation:none}}</style>
+  <clipPath id="kc2"><rect width="480" height="340" rx="20"/></clipPath>
+  <rect x=".5" y=".5" width="479" height="339" rx="20" fill="#f6f8fa" stroke="#d0d7de"/>
+  <rect width="480" height="4" fill="url(#gc2)" clip-path="url(#kc2)"/>
+  <text x="32" y="56" class="m" font-size="13" font-weight="700" letter-spacing="1.5" fill="url(#gc2)">PRODUIT PERSO</text>
+  <rect x="350" y="36" width="98" height="28" rx="14" fill="none" stroke="#d0d7de"/>
+  <circle class="dot" cx="366" cy="50" r="4.5" fill="#1a7f37"/>
+  <text x="378" y="55" class="s" font-size="13" fill="#59636e">En ligne</text>
+  <text x="32" y="106" class="s" font-size="31" font-weight="800" letter-spacing="-.6" fill="#1f2328">RunTracker</text>
+  <text x="32" y="146" class="s" font-size="17" fill="#59636e"><tspan x="32" dy="0">Suivi de course à pied : sorties, records,</tspan><tspan x="32" dy="26">objectifs, import Strava et GPX, coach IA qui</tspan><tspan x="32" dy="26">rédige les bilans.</tspan></text>
+  <rect x="32" y="280" width="88" height="30" rx="15" fill="#eaeef2"/><text x="76.0" y="300" class="m" font-size="13" text-anchor="middle" fill="#1f2328">Django 6</text><rect x="128" y="280" width="104" height="30" rx="15" fill="#eaeef2"/><text x="180.0" y="300" class="m" font-size="13" text-anchor="middle" fill="#1f2328">PostgreSQL</text><rect x="240" y="280" width="56" height="30" rx="15" fill="#eaeef2"/><text x="268.0" y="300" class="m" font-size="13" text-anchor="middle" fill="#1f2328">Groq</text>
+</svg>
