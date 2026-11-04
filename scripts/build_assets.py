@@ -56,7 +56,7 @@ def hero(t):
     for i, (k, v) in enumerate(STACK):
         y = 170 + i * 30
         lines.append(f"""
-    <g class="ln" style="animation-delay:{0.6 + i * 0.35:.2f}s">
+    <g class="ln" style="animation-delay:{0.2 + i * 0.15:.2f}s">
       <text x="790" y="{y}" class="m" fill="{t['a2']}">❯</text>
       <text x="812" y="{y}" class="m" fill="{t['muted']}">{e(k)}</text>
       <text x="898" y="{y}" class="m" fill="{t['text']}">{e(v)}</text>
@@ -111,7 +111,7 @@ def hero(t):
 # ---------------------------------------------------------------- CARTES
 def card(t, uid, w, h, tag, title, desc, chips, status):
     pad = 32
-    body = wrap(desc, int((w - 2 * pad) / 9.2))[:4]
+    body = wrap(desc, int((w - 2 * pad) / 8.1))[:4]
     tspans = "".join(
         f'<tspan x="{pad}" dy="{0 if i == 0 else 26}">{e(l)}</tspan>' for i, l in enumerate(body))
     cx, cy, chips_svg = pad, h - 60, []
@@ -143,7 +143,7 @@ def card(t, uid, w, h, tag, title, desc, chips, status):
 </svg>"""
 
 
-WIDE, NARROW, H = 700, 480, 340
+WIDE, NARROW, H = 708, 480, 300
 CARDS = [
     ("opalenews", WIDE, "Mission Coteo", "Opalenews",
      "Les événements de la Côte d'Opale : recherche sémantique, assistant IA (RAG), "

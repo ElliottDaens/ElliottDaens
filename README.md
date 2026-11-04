@@ -4,7 +4,7 @@
   <img src="assets/hero-light.svg" width="100%" alt="Elliott Daens, développeur web freelance full-stack. Disponible pour missions."/>
 </picture>
 
-<br/><br/>
+<br/>
 
 Je conçois et livre des **applis web complètes** : back **Symfony, Django, Laravel ou Node**, front moderne, **IA intégrée** (RAG, recherche sémantique, agents), puis déploiement **Docker** jusqu'en prod.
 En ce moment, en mission avec **Coteo** sur [Opalenews](https://www.opalenews.com/) et Contacto.

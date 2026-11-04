@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="700" height="340" viewBox="0 0 700 340" role="img" aria-label="TunnelWa : SaaS multi-clients qui envoie des séquences de messages WhatsApp Business (premier message puis relances) via l&#x27;API Meta. Webhooks signés HMAC, secrets chiffrés, JWT.">
+<svg xmlns="http://www.w3.org/2000/svg" width="708" height="300" viewBox="0 0 708 300" role="img" aria-label="TunnelWa : SaaS multi-clients qui envoie des séquences de messages WhatsApp Business (premier message puis relances) via l&#x27;API Meta. Webhooks signés HMAC, secrets chiffrés, JWT.">
   <title>TunnelWa</title>
   <defs>
     <linearGradient id="gc3" x1="0" y1="0" x2="1" y2="1">
@@ -12,14 +12,14 @@
   <style>.s{font-family:'Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif} .m{font-family:'JetBrains Mono','Cascadia Code','SF Mono',Consolas,'Liberation Mono',monospace}
     .dot{animation:p 2s ease-in-out infinite} @keyframes p{50%{opacity:.3}}
     @media (prefers-reduced-motion:reduce){.dot{animation:none}}</style>
-  <clipPath id="kc3"><rect width="700" height="340" rx="20"/></clipPath>
-  <rect x=".5" y=".5" width="699" height="339" rx="20" fill="#161b22" stroke="#30363d"/>
-  <rect width="700" height="4" fill="url(#gc3)" clip-path="url(#kc3)"/>
+  <clipPath id="kc3"><rect width="708" height="300" rx="20"/></clipPath>
+  <rect x=".5" y=".5" width="707" height="299" rx="20" fill="#161b22" stroke="#30363d"/>
+  <rect width="708" height="4" fill="url(#gc3)" clip-path="url(#kc3)"/>
   <text x="32" y="56" class="m" font-size="13" font-weight="700" letter-spacing="1.5" fill="url(#gc3)">SAAS</text>
-  <rect x="578" y="36" width="90" height="28" rx="14" fill="none" stroke="#30363d"/>
-  <circle class="dot" cx="594" cy="50" r="4.5" fill="#3fb950"/>
-  <text x="606" y="55" class="s" font-size="13" fill="#8b949e">En prod</text>
+  <rect x="586" y="36" width="90" height="28" rx="14" fill="none" stroke="#30363d"/>
+  <circle class="dot" cx="602" cy="50" r="4.5" fill="#3fb950"/>
+  <text x="614" y="55" class="s" font-size="13" fill="#8b949e">En prod</text>
   <text x="32" y="106" class="s" font-size="31" font-weight="800" letter-spacing="-.6" fill="#e6edf3">TunnelWa</text>
-  <text x="32" y="146" class="s" font-size="17" fill="#8b949e"><tspan x="32" dy="0">SaaS multi-clients qui envoie des séquences de messages WhatsApp</tspan><tspan x="32" dy="26">Business (premier message puis relances) via l&#x27;API Meta. Webhooks</tspan><tspan x="32" dy="26">signés HMAC, secrets chiffrés, JWT.</tspan></text>
-  <rect x="32" y="280" width="80" height="30" rx="15" fill="#21262d"/><text x="72.0" y="300" class="m" font-size="13" text-anchor="middle" fill="#e6edf3">Node 20</text><rect x="120" y="280" width="80" height="30" rx="15" fill="#21262d"/><text x="160.0" y="300" class="m" font-size="13" text-anchor="middle" fill="#e6edf3">Express</text><rect x="208" y="280" width="104" height="30" rx="15" fill="#21262d"/><text x="260.0" y="300" class="m" font-size="13" text-anchor="middle" fill="#e6edf3">PostgreSQL</text><rect x="320" y="280" width="88" height="30" rx="15" fill="#21262d"/><text x="364.0" y="300" class="m" font-size="13" text-anchor="middle" fill="#e6edf3">React 18</text><rect x="416" y="280" width="56" height="30" rx="15" fill="#21262d"/><text x="444.0" y="300" class="m" font-size="13" text-anchor="middle" fill="#e6edf3">Vite</text><rect x="480" y="280" width="88" height="30" rx="15" fill="#21262d"/><text x="524.0" y="300" class="m" font-size="13" text-anchor="middle" fill="#e6edf3">Tailwind</text>
+  <text x="32" y="146" class="s" font-size="17" fill="#8b949e"><tspan x="32" dy="0">SaaS multi-clients qui envoie des séquences de messages WhatsApp Business</tspan><tspan x="32" dy="26">(premier message puis relances) via l&#x27;API Meta. Webhooks signés HMAC, secrets</tspan><tspan x="32" dy="26">chiffrés, JWT.</tspan></text>
+  <rect x="32" y="240" width="80" height="30" rx="15" fill="#21262d"/><text x="72.0" y="260" class="m" font-size="13" text-anchor="middle" fill="#e6edf3">Node 20</text><rect x="120" y="240" width="80" height="30" rx="15" fill="#21262d"/><text x="160.0" y="260" class="m" font-size="13" text-anchor="middle" fill="#e6edf3">Express</text><rect x="208" y="240" width="104" height="30" rx="15" fill="#21262d"/><text x="260.0" y="260" class="m" font-size="13" text-anchor="middle" fill="#e6edf3">PostgreSQL</text><rect x="320" y="240" width="88" height="30" rx="15" fill="#21262d"/><text x="364.0" y="260" class="m" font-size="13" text-anchor="middle" fill="#e6edf3">React 18</text><rect x="416" y="240" width="56" height="30" rx="15" fill="#21262d"/><text x="444.0" y="260" class="m" font-size="13" text-anchor="middle" fill="#e6edf3">Vite</text><rect x="480" y="240" width="88" height="30" rx="15" fill="#21262d"/><text x="524.0" y="260" class="m" font-size="13" text-anchor="middle" fill="#e6edf3">Tailwind</text>
 </svg>

@@ -51,32 +51,32 @@
   <text x="955" y="99" class="m" font-size="13" text-anchor="middle" fill="#8b949e">stack.sh</text>
   <line x1="760" y1="114" x2="1150" y2="114" stroke="#30363d"/>
   <text x="790" y="142" class="m" fill="#8b949e"># ce que je livre</text>
-    <g class="ln" style="animation-delay:0.60s">
+    <g class="ln" style="animation-delay:0.20s">
       <text x="790" y="170" class="m" fill="#22d3ee">❯</text>
       <text x="812" y="170" class="m" fill="#8b949e">symfony</text>
       <text x="898" y="170" class="m" fill="#e6edf3">Symfony 8 · PHP 8.4</text>
     </g>
-    <g class="ln" style="animation-delay:0.95s">
+    <g class="ln" style="animation-delay:0.35s">
       <text x="790" y="200" class="m" fill="#22d3ee">❯</text>
       <text x="812" y="200" class="m" fill="#8b949e">django</text>
       <text x="898" y="200" class="m" fill="#e6edf3">Django 6 · Celery</text>
     </g>
-    <g class="ln" style="animation-delay:1.30s">
+    <g class="ln" style="animation-delay:0.50s">
       <text x="790" y="230" class="m" fill="#22d3ee">❯</text>
       <text x="812" y="230" class="m" fill="#8b949e">laravel</text>
       <text x="898" y="230" class="m" fill="#e6edf3">Laravel 12 / 13</text>
     </g>
-    <g class="ln" style="animation-delay:1.65s">
+    <g class="ln" style="animation-delay:0.65s">
       <text x="790" y="260" class="m" fill="#22d3ee">❯</text>
       <text x="812" y="260" class="m" fill="#8b949e">node</text>
       <text x="898" y="260" class="m" fill="#e6edf3">Node · React · Vite</text>
     </g>
-    <g class="ln" style="animation-delay:2.00s">
+    <g class="ln" style="animation-delay:0.80s">
       <text x="790" y="290" class="m" fill="#22d3ee">❯</text>
       <text x="812" y="290" class="m" fill="#8b949e">ia</text>
       <text x="898" y="290" class="m" fill="#e6edf3">RAG · Mistral · MCP</text>
     </g>
-    <g class="ln" style="animation-delay:2.35s">
+    <g class="ln" style="animation-delay:0.95s">
       <text x="790" y="320" class="m" fill="#22d3ee">❯</text>
       <text x="812" y="320" class="m" fill="#8b949e">infra</text>
       <text x="898" y="320" class="m" fill="#e6edf3">Docker · 57 conteneurs</text>
