@@ -4,7 +4,7 @@
   <img src="assets/hero-light.svg" width="100%" alt="Elliott Daens, développeur web freelance full-stack. Disponible pour missions."/>
 </picture>
 
-<br/>
+<br/><br/>
 
 Je conçois et livre des **applis web complètes** : back **Symfony, Django, Laravel ou Node**, front moderne, **IA intégrée** (RAG, recherche sémantique, agents), puis déploiement **Docker** jusqu'en prod.
 En ce moment, en mission avec **Coteo** sur [Opalenews](https://www.opalenews.com/) et Contacto.
@@ -14,15 +14,15 @@ En ce moment, en mission avec **Coteo** sur [Opalenews](https://www.opalenews.co
 <sub>Dépôts privés (projets clients et prod perso). Démo ou visite du code sur demande.</sub>
 
 <p>
-<a href="https://www.opalenews.com/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-opalenews-dark.svg"/><img src="assets/card-opalenews-light.svg" width="58%" alt="Opalenews : événements de la Côte d'Opale, recherche sémantique et assistant IA. Symfony 8. En ligne."/></picture></a>
+<a href="https://www.opalenews.com/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-opalenews-dark.svg"/><img src="assets/card-opalenews-light.svg" width="59%" alt="Opalenews : événements de la Côte d'Opale, recherche sémantique et assistant IA. Symfony 8. En ligne."/></picture></a>
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-contacto-dark.svg"/><img src="assets/card-contacto-light.svg" width="40%" alt="Contacto : mise en relation pour réseaux d'entreprises. Django 6, Celery, Redis."/></picture>
 </p>
 <p>
 <a href="https://runtracker.daens-elliott-projet-1.fr"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-runtracker-dark.svg"/><img src="assets/card-runtracker-light.svg" width="40%" alt="RunTracker : suivi de course à pied, import Strava et GPX, coach IA. En ligne."/></picture></a>
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-tunnelwa-dark.svg"/><img src="assets/card-tunnelwa-light.svg" width="58%" alt="TunnelWa : SaaS multi-clients de séquences WhatsApp Business via l'API Meta. Node, PostgreSQL, React."/></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-tunnelwa-dark.svg"/><img src="assets/card-tunnelwa-light.svg" width="59%" alt="TunnelWa : SaaS multi-clients de séquences WhatsApp Business via l'API Meta. Node, PostgreSQL, React."/></picture>
 </p>
 <p>
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-pitwall-dark.svg"/><img src="assets/card-pitwall-light.svg" width="58%" alt="Pit Wall et Paddock : PWA temps réel F1 et MotoGP avec pronostics ML."/></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-pitwall-dark.svg"/><img src="assets/card-pitwall-light.svg" width="59%" alt="Pit Wall et Paddock : PWA temps réel F1 et MotoGP avec pronostics ML."/></picture>
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-pixeloffice-dark.svg"/><img src="assets/card-pixeloffice-light.svg" width="40%" alt="Pixel Office : bureau pixel art des sessions Claude Code, MCP et WebSocket."/></picture>
 </p>
 
@@ -47,27 +47,10 @@ En ce moment, en mission avec **Coteo** sur [Opalenews](https://www.opalenews.co
 
 Tout mon perso tourne en prod sur un **NAS Ubuntu : 57 conteneurs Docker**. Le PC (RTX 5070) sert à entraîner les modèles.
 
-```mermaid
-flowchart LR
-    PC["💻 PC · RTX 5070<br/>entraînement ML"]
-    TEL["📱 Téléphone"]
-    PC & TEL -- "VPN Tailscale" --> NAS
-
-    subgraph NAS["🗄️ NAS Ubuntu · 57 conteneurs Docker"]
-        direction TB
-        APPS["🌐 Mes applis<br/>Pit Wall · Paddock · foot · Contacto<br/>TunnelWa · Pixel Office · Perso Hub"]
-        BOTS["🤖 Bots<br/>Vinted · Discord · Telegram"]
-        DOMO["🏠 Domotique<br/>Home Assistant · Zigbee2MQTT<br/>Mosquitto · Frigate · Matter"]
-        MEDIA["🎬 Médias<br/>Plex · Tautulli · Kometa · Immich"]
-        SEC["🔐 Réseau & sécurité<br/>AdGuard Home · Vaultwarden"]
-        SUP["📊 Supervision<br/>System Hub · Glances · Scrutiny<br/>Portainer · Diun · watchdogs"]
-    end
-
-    PC -- "restic chiffré, chaque nuit" --> NAS
-    PC <-- "Syncthing" --> NAS
-    SUP -- "alertes" --> TG["📨 Telegram · ntfy"]
-    DOMO -- "détection de personne" --> TG
-```
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/homelab-dark.svg"/>
+  <img src="assets/homelab-light.svg" width="100%" alt="Schéma du homelab : NAS Ubuntu avec 57 conteneurs Docker (applis, bots, domotique, médias, sécurité, supervision), relié au PC et au téléphone par Tailscale, alertes Telegram."/>
+</picture>
 
 <details>
 <summary><b>Ce qui tourne tout seul</b></summary>
@@ -100,15 +83,15 @@ Des modèles sur le sport, **mesurés contre une référence simple** plutôt qu
 <br/>
 <img src="https://skillicons.dev/icons?i=html,css,js,react,vite,tailwind,postgres,mysql,redis,sqlite&theme=dark" height="40" alt="Front et données : HTML, CSS, JavaScript, React, Vite, Tailwind, PostgreSQL, MySQL, Redis, SQLite"/>
 <br/>
-<img src="https://skillicons.dev/icons?i=docker,linux,nginx,caddy,cloudflare,githubactions,sklearn,pytorch,homeassistant&theme=dark" height="40" alt="Infra et ML : Docker, Linux, Nginx, Caddy, Cloudflare, GitHub Actions, scikit-learn, PyTorch, Home Assistant"/>
+<img src="https://skillicons.dev/icons?i=docker,linux,nginx,cloudflare,githubactions,sklearn,pytorch,homeassistant&theme=dark" height="40" alt="Infra et ML : Docker, Linux, Nginx, Cloudflare, GitHub Actions, scikit-learn, PyTorch, Home Assistant"/>
 </p>
 
 ## Activité
 
-<!-- Mise à jour chaque nuit par .github/workflows/metrics.yml -->
+<!-- Généré chaque nuit par .github/workflows/stats.yml (scripts/build_stats.py) -->
 <p>
-<img src="metrics/languages.svg" width="49%" alt="Langages les plus utilisés"/>
-<img src="metrics/isocalendar.svg" width="49%" alt="Calendrier isométrique des contributions"/>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/stats-langues-dark.svg"/><img src="assets/stats-langues-light.svg" width="49%" alt="Langages les plus utilisés, dépôts privés compris"/></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/stats-activite-dark.svg"/><img src="assets/stats-activite-light.svg" width="49%" alt="Contributions des 12 derniers mois et séries"/></picture>
 </p>
 
 ## Contact
@@ -120,4 +103,4 @@ Un site, une appli, une mission freelance ? Je réponds vite.
 <a href="https://www.linkedin.com/in/elliott-daens-906b8b32a/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-linkedin-dark.svg"/><img src="assets/btn-linkedin-light.svg" height="48" alt="LinkedIn : Elliott Daens"/></picture></a>
 </p>
 
-<sub>Hors du code : jiu-jitsu brésilien, musculation, Formule 1, cinéma, gaming.</sub>
+Hors du code : jiu-jitsu brésilien 🥋, musculation, Formule 1 🏎️, cinéma, gaming.

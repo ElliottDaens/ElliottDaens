@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="540" viewBox="0 0 1200 540" role="img" aria-label="Schéma du homelab : un NAS Ubuntu avec 57 conteneurs Docker (applis, bots, domotique, médias, sécurité, supervision), relié au PC et au téléphone par Tailscale, alertes sur Telegram.">
+  <title>Homelab : NAS Ubuntu, 57 conteneurs Docker</title>
+  <defs>
+    <linearGradient id="gl" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#818cf8"/><stop offset=".55" stop-color="#c084fc"/><stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <pattern id="pl" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#ffffff" stroke-opacity="0.035"/>
+    </pattern>
+    <filter id="bl" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="60"/></filter>
+  </defs>
+  <style>.s{font-family:'Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif} .m{font-family:'JetBrains Mono','Cascadia Code','SF Mono',Consolas,'Liberation Mono',monospace}
+    .flow{stroke-dasharray:6 8;animation:f 1.4s linear infinite} @keyframes f{to{stroke-dashoffset:-28}}
+    @media (prefers-reduced-motion:reduce){.flow{animation:none}}</style>
+  <rect width="1200" height="540" rx="24" fill="#0d1117"/>
+  <rect width="1200" height="540" rx="24" fill="url(#pl)"/>
+  <rect x=".5" y=".5" width="1199" height="539" rx="23.5" fill="none" stroke="#30363d"/>
+
+  <rect x="300" y="36" width="690" height="468" rx="20" fill="#161b22" stroke="url(#gl)" stroke-width="1.5"/>
+  <text x="324" y="80" class="s" font-size="22" font-weight="800" fill="#e6edf3">NAS Ubuntu</text>
+  <text x="966" y="80" class="m" font-size="14" text-anchor="end" fill="url(#gl)" font-weight="700">57 conteneurs Docker · GTX 1050 Ti · 10 To</text>
+  
+    <rect x="320" y="110" width="206" height="178" rx="14" fill="#0d1117" stroke="#30363d"/>
+    <rect x="340" y="134" width="8" height="8" rx="2" fill="url(#gl)"/>
+    <text x="356" y="143" class="s" font-size="16.5" font-weight="700" fill="#e6edf3">Mes applis</text><text x="340" y="186" class="s" font-size="14.5" fill="#8b949e">Pit Wall · Paddock</text><text x="340" y="212" class="s" font-size="14.5" fill="#8b949e">Virage · Étoiles</text><text x="340" y="238" class="s" font-size="14.5" fill="#8b949e">Contacto · TunnelWa</text><text x="340" y="264" class="s" font-size="14.5" fill="#8b949e">Pixel Office · Perso Hub</text>
+    <rect x="542" y="110" width="206" height="178" rx="14" fill="#0d1117" stroke="#30363d"/>
+    <rect x="562" y="134" width="8" height="8" rx="2" fill="url(#gl)"/>
+    <text x="578" y="143" class="s" font-size="16.5" font-weight="700" fill="#e6edf3">Bots</text><text x="562" y="186" class="s" font-size="14.5" fill="#8b949e">Vinted → Telegram</text><text x="562" y="212" class="s" font-size="14.5" fill="#8b949e">Discord (discord.js)</text><text x="562" y="238" class="s" font-size="14.5" fill="#8b949e">Telegram : alertes</text><text x="562" y="264" class="s" font-size="14.5" fill="#8b949e">et commandes à distance</text>
+    <rect x="764" y="110" width="206" height="178" rx="14" fill="#0d1117" stroke="#30363d"/>
+    <rect x="784" y="134" width="8" height="8" rx="2" fill="url(#gl)"/>
+    <text x="800" y="143" class="s" font-size="16.5" font-weight="700" fill="#e6edf3">Domotique</text><text x="784" y="186" class="s" font-size="14.5" fill="#8b949e">Home Assistant</text><text x="784" y="212" class="s" font-size="14.5" fill="#8b949e">Zigbee2MQTT · Mosquitto</text><text x="784" y="238" class="s" font-size="14.5" fill="#8b949e">Frigate (caméras)</text><text x="784" y="264" class="s" font-size="14.5" fill="#8b949e">Matter Hub · Piper (voix)</text>
+    <rect x="320" y="304" width="206" height="178" rx="14" fill="#0d1117" stroke="#30363d"/>
+    <rect x="340" y="328" width="8" height="8" rx="2" fill="url(#gl)"/>
+    <text x="356" y="337" class="s" font-size="16.5" font-weight="700" fill="#e6edf3">Médias</text><text x="340" y="380" class="s" font-size="14.5" fill="#8b949e">Plex · Tautulli</text><text x="340" y="406" class="s" font-size="14.5" fill="#8b949e">Kometa</text><text x="340" y="432" class="s" font-size="14.5" fill="#8b949e">Immich (photos)</text><text x="340" y="458" class="s" font-size="14.5" fill="#8b949e">media-sorter (maison)</text>
+    <rect x="542" y="304" width="206" height="178" rx="14" fill="#0d1117" stroke="#30363d"/>
+    <rect x="562" y="328" width="8" height="8" rx="2" fill="url(#gl)"/>
+    <text x="578" y="337" class="s" font-size="16.5" font-weight="700" fill="#e6edf3">Réseau &amp; sécurité</text><text x="562" y="380" class="s" font-size="14.5" fill="#8b949e">Tailscale (VPN)</text><text x="562" y="406" class="s" font-size="14.5" fill="#8b949e">AdGuard Home (DNS)</text><text x="562" y="432" class="s" font-size="14.5" fill="#8b949e">Vaultwarden</text><text x="562" y="458" class="s" font-size="14.5" fill="#8b949e">HTTPS : Caddy · Nginx</text>
+    <rect x="764" y="304" width="206" height="178" rx="14" fill="#0d1117" stroke="#30363d"/>
+    <rect x="784" y="328" width="8" height="8" rx="2" fill="url(#gl)"/>
+    <text x="800" y="337" class="s" font-size="16.5" font-weight="700" fill="#e6edf3">Supervision</text><text x="784" y="380" class="s" font-size="14.5" fill="#8b949e">System Hub (maison)</text><text x="784" y="406" class="s" font-size="14.5" fill="#8b949e">Glances · Scrutiny</text><text x="784" y="432" class="s" font-size="14.5" fill="#8b949e">Portainer · Diun</text><text x="784" y="458" class="s" font-size="14.5" fill="#8b949e">watchdogs → Telegram</text>
+
+  <text x="30" y="80" class="m" font-size="14" font-weight="700" fill="url(#gl)">accès via Tailscale</text>
+  
+    <rect x="30" y="110" width="230" height="178" rx="14" fill="#161b22" stroke="#30363d"/>
+    <text x="50" y="143" class="s" font-size="16.5" font-weight="700" fill="#e6edf3">PC · RTX 5070</text><text x="50" y="186" class="s" font-size="14.5" fill="#8b949e">Entraînement ML</text><text x="50" y="212" class="s" font-size="14.5" fill="#8b949e">Sauvegarde restic</text><text x="50" y="238" class="s" font-size="14.5" fill="#8b949e">chiffrée chaque nuit</text><text x="50" y="264" class="s" font-size="14.5" fill="#8b949e">Syncthing</text>
+  
+    <rect x="30" y="304" width="230" height="178" rx="14" fill="#161b22" stroke="#30363d"/>
+    <text x="50" y="337" class="s" font-size="16.5" font-weight="700" fill="#e6edf3">Téléphone</text><text x="50" y="380" class="s" font-size="14.5" fill="#8b949e">Applis en PWA</text><text x="50" y="406" class="s" font-size="14.5" fill="#8b949e">Alertes Telegram</text><text x="50" y="432" class="s" font-size="14.5" fill="#8b949e">Administration à distance</text>
+  <path d="M260 199.0 C280.0 199.0 280.0 199.0 300 199.0" class="flow" style="animation-delay:-0s" fill="none" stroke="url(#gl)" stroke-width="2.2"/><circle cx="300" cy="199.0" r="4" fill="#22d3ee"/>
+  <path d="M260 393.0 C280.0 393.0 280.0 393.0 300 393.0" class="flow" style="animation-delay:-0.5s" fill="none" stroke="url(#gl)" stroke-width="2.2"/><circle cx="300" cy="393.0" r="4" fill="#22d3ee"/>
+
+  
+    <rect x="1020" y="207.0" width="150" height="178" rx="14" fill="#161b22" stroke="#30363d"/>
+    <text x="1040" y="240.0" class="s" font-size="16.5" font-weight="700" fill="#e6edf3">Telegram</text><text x="1040" y="283.0" class="s" font-size="14.5" fill="#8b949e">Alertes</text><text x="1040" y="309.0" class="s" font-size="14.5" fill="#8b949e">Caméras</text><text x="1040" y="335.0" class="s" font-size="14.5" fill="#8b949e">Rapports</text><text x="1040" y="361.0" class="s" font-size="14.5" fill="#8b949e">Commandes</text>
+  <path d="M990 296.0 C1005.0 296.0 1005.0 296.0 1020 296.0" class="flow" style="animation-delay:-0.9s" fill="none" stroke="url(#gl)" stroke-width="2.2"/><circle cx="1020" cy="296.0" r="4" fill="#22d3ee"/>
+</svg>

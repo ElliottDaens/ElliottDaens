@@ -172,23 +172,98 @@ CARDS = [
 ]
 
 
-def button(t, label, sub, w):
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="56" viewBox="0 0 {w} 56" role="img" aria-label="{e(label)} : {e(sub)}">
+
+
+# ---------------------------------------------------------------- BOUTONS
+ICON_MAIL = '<path d="M-8 -5.5h16v11h-16z M-8 -5.5l8 6.5 8-6.5" fill="none" stroke="#fff" stroke-width="1.8" stroke-linejoin="round"/>'
+ICON_IN = '<text x="0" y="5" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="800" fill="#fff">in</text>'
+
+
+def button(t, label, sub, w, icon):
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="64" viewBox="0 0 {w} 64" role="img" aria-label="{e(label)} : {e(sub)}">
   <title>{e(label)}</title>{defs(t, 'btn')}
   <style>.s{{font-family:{SANS}}}</style>
-  <rect x=".5" y=".5" width="{w - 1}" height="55" rx="27.5" fill="{t['card']}" stroke="{t['border']}"/>
-  <circle cx="30" cy="28" r="11" fill="url(#gbtn)"/>
-  <text x="52" y="25" class="s" font-size="16" font-weight="700" fill="{t['text']}">{e(label)}</text>
-  <text x="52" y="43" class="s" font-size="12.5" fill="{t['muted']}">{e(sub)}</text>
+  <rect x=".5" y=".5" width="{w - 1}" height="63" rx="16" fill="{t['card']}" stroke="{t['border']}"/>
+  <rect x="12" y="12" width="40" height="40" rx="12" fill="url(#gbtn)"/>
+  <g transform="translate(32 32)">{icon}</g>
+  <text x="66" y="28" class="s" font-size="17" font-weight="700" fill="{t['text']}">{e(label)}</text>
+  <text x="66" y="47" class="s" font-size="13" fill="{t['muted']}">{e(sub)}</text>
+  <text x="{w - 22}" y="38" class="s" font-size="20" text-anchor="end" fill="{t['muted']}">→</text>
 </svg>"""
 
 
-for mode, t in THEMES.items():
-    (OUT / f"hero-{mode}.svg").write_text(hero(t), encoding="utf-8")
-    for i, (slug, w, tag, title, desc, chips, status) in enumerate(CARDS):
-        (OUT / f"card-{slug}-{mode}.svg").write_text(
-            card(t, f"c{i}", w, H, tag, title, desc, chips, status), encoding="utf-8")
-    (OUT / f"btn-linkedin-{mode}.svg").write_text(button(t, "LinkedIn", "Elliott Daens", 230), encoding="utf-8")
-    (OUT / f"btn-mail-{mode}.svg").write_text(button(t, "Écrivez-moi", "daenselliott691@gmail.com", 290), encoding="utf-8")
+# ---------------------------------------------------------------- HOMELAB
+TILES = [
+    ("Mes applis", ["Pit Wall · Paddock", "Virage · Étoiles", "Contacto · TunnelWa", "Pixel Office · Perso Hub"]),
+    ("Bots", ["Vinted → Telegram", "Discord (discord.js)", "Telegram : alertes", "et commandes à distance"]),
+    ("Domotique", ["Home Assistant", "Zigbee2MQTT · Mosquitto", "Frigate (caméras)", "Matter Hub · Piper (voix)"]),
+    ("Médias", ["Plex · Tautulli", "Kometa", "Immich (photos)", "media-sorter (maison)"]),
+    ("Réseau & sécurité", ["Tailscale (VPN)", "AdGuard Home (DNS)", "Vaultwarden", "HTTPS : Caddy · Nginx"]),
+    ("Supervision", ["System Hub (maison)", "Glances · Scrutiny", "Portainer · Diun", "watchdogs → Telegram"]),
+]
 
-print("ok", len(list(OUT.glob("*.svg"))), "fichiers")
+
+def homelab(t):
+    W, H = 1200, 540
+    nx, ny, nw, nh = 300, 36, 690, 468
+    gap, tw, th = 16, 206, 178
+    tiles = []
+    for i, (title, items) in enumerate(TILES):
+        x = nx + 20 + (i % 3) * (tw + gap)
+        y = ny + 74 + (i // 3) * (th + gap)
+        lines = "".join(f'<text x="{x + 20}" y="{y + 76 + j * 26}" class="s" font-size="14.5" fill="{t["muted"]}">{e(it)}</text>'
+                        for j, it in enumerate(items))
+        tiles.append(f"""
+    <rect x="{x}" y="{y}" width="{tw}" height="{th}" rx="14" fill="{t['bg']}" stroke="{t['border']}"/>
+    <rect x="{x + 20}" y="{y + 24}" width="8" height="8" rx="2" fill="url(#gl)"/>
+    <text x="{x + 36}" y="{y + 33}" class="s" font-size="16.5" font-weight="700" fill="{t['text']}">{e(title)}</text>{lines}""")
+
+    def side(x, y, w, h, title, lines):
+        ls = "".join(f'<text x="{x + 20}" y="{y + 76 + j * 26}" class="s" font-size="14.5" fill="{t["muted"]}">{e(l)}</text>'
+                     for j, l in enumerate(lines))
+        return f"""
+    <rect x="{x}" y="{y}" width="{w}" height="{h}" rx="14" fill="{t['card']}" stroke="{t['border']}"/>
+    <text x="{x + 20}" y="{y + 33}" class="s" font-size="16.5" font-weight="700" fill="{t['text']}">{e(title)}</text>{ls}"""
+
+    def flow(x1, y1, x2, y2, delay=0):
+        return (f'<path d="M{x1} {y1} C{(x1 + x2) / 2} {y1} {(x1 + x2) / 2} {y2} {x2} {y2}" class="flow" '
+                f'style="animation-delay:-{delay}s" fill="none" stroke="url(#gl)" stroke-width="2.2"/>'
+                f'<circle cx="{x2}" cy="{y2}" r="4" fill="{t["a2"]}"/>')
+
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="Schéma du homelab : un NAS Ubuntu avec 57 conteneurs Docker (applis, bots, domotique, médias, sécurité, supervision), relié au PC et au téléphone par Tailscale, alertes sur Telegram.">
+  <title>Homelab : NAS Ubuntu, 57 conteneurs Docker</title>{defs(t, 'l')}
+  <style>.s{{font-family:{SANS}}} .m{{font-family:{MONO}}}
+    .flow{{stroke-dasharray:6 8;animation:f 1.4s linear infinite}} @keyframes f{{to{{stroke-dashoffset:-28}}}}
+    @media (prefers-reduced-motion:reduce){{.flow{{animation:none}}}}</style>
+  <rect width="{W}" height="{H}" rx="24" fill="{t['bg']}"/>
+  <rect width="{W}" height="{H}" rx="24" fill="url(#pl)"/>
+  <rect x=".5" y=".5" width="{W - 1}" height="{H - 1}" rx="23.5" fill="none" stroke="{t['border']}"/>
+
+  <rect x="{nx}" y="{ny}" width="{nw}" height="{nh}" rx="20" fill="{t['card']}" stroke="url(#gl)" stroke-width="1.5"/>
+  <text x="{nx + 24}" y="{ny + 44}" class="s" font-size="22" font-weight="800" fill="{t['text']}">NAS Ubuntu</text>
+  <text x="{nx + nw - 24}" y="{ny + 44}" class="m" font-size="14" text-anchor="end" fill="url(#gl)" font-weight="700">57 conteneurs Docker · GTX 1050 Ti · 10 To</text>
+  {''.join(tiles)}
+
+  <text x="30" y="{ny + 44}" class="m" font-size="14" font-weight="700" fill="url(#gl)">accès via Tailscale</text>
+  {side(30, ny + 74, 230, th, "PC · RTX 5070", ["Entraînement ML", "Sauvegarde restic", "chiffrée chaque nuit", "Syncthing"])}
+  {side(30, ny + 74 + th + gap, 230, th, "Téléphone", ["Applis en PWA", "Alertes Telegram", "Administration à distance"])}
+  {flow(260, ny + 74 + th / 2, nx, ny + 74 + th / 2, 0)}
+  {flow(260, ny + 74 + th * 1.5 + gap, nx, ny + 74 + th * 1.5 + gap, .5)}
+
+  {side(1020, ny + 74 + th / 2 + gap / 2, 150, th, "Telegram", ["Alertes", "Caméras", "Rapports", "Commandes"])}
+  {flow(nx + nw, ny + 74 + th + gap / 2, 1020, ny + 74 + th + gap / 2, .9)}
+</svg>"""
+
+
+if __name__ == "__main__":
+    for mode, t in THEMES.items():
+        (OUT / f"hero-{mode}.svg").write_text(hero(t), encoding="utf-8")
+        for i, (slug, w, tag, title, desc, chips, status) in enumerate(CARDS):
+            (OUT / f"card-{slug}-{mode}.svg").write_text(
+                card(t, f"c{i}", w, H, tag, title, desc, chips, status), encoding="utf-8")
+        (OUT / f"btn-linkedin-{mode}.svg").write_text(
+            button(t, "LinkedIn", "Elliott Daens", 250, ICON_IN), encoding="utf-8")
+        (OUT / f"btn-mail-{mode}.svg").write_text(
+            button(t, "Écrivez-moi", "daenselliott691@gmail.com", 320, ICON_MAIL), encoding="utf-8")
+        (OUT / f"homelab-{mode}.svg").write_text(homelab(t), encoding="utf-8")
+    print("ok", len(list(OUT.glob("*.svg"))), "fichiers")
