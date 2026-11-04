@@ -7,9 +7,10 @@
 <br/>
 
 Je conçois et livre des **applis web complètes** : back **Symfony, Django, Laravel ou Node**, front moderne, **IA intégrée** (RAG, recherche sémantique, agents), puis déploiement **Docker** jusqu'en prod.
-En ce moment, en mission avec **Coteo** sur [Opalenews](https://www.opalenews.com/) et Contacto.
+En ce moment, en mission avec **Coteo** sur [Opalenews](https://www.opalenews.com/) et Contacto. Portfolio complet : [portfolio-daens-elliott.fr](https://www.portfolio-daens-elliott.fr/).
 
-## Projets
+<!-- Projets -->
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/titre-projets-dark.svg"/><img src="assets/titre-projets-light.svg" width="100%" alt="Projets"/></picture>
 
 <sub>Dépôts privés (projets clients et prod perso). Démo ou visite du code sur demande.</sub>
 
@@ -43,7 +44,8 @@ En ce moment, en mission avec **Coteo** sur [Opalenews](https://www.opalenews.co
 
 </details>
 
-## Homelab
+<!-- Homelab -->
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/titre-homelab-dark.svg"/><img src="assets/titre-homelab-light.svg" width="100%" alt="Homelab"/></picture>
 
 Tout mon perso tourne en prod sur un **NAS Ubuntu : 57 conteneurs Docker**. Le PC (RTX 5070) sert à entraîner les modèles.
 
@@ -65,7 +67,8 @@ Tout mon perso tourne en prod sur un **NAS Ubuntu : 57 conteneurs Docker**. Le P
 
 </details>
 
-## Machine learning
+<!-- Machine learning -->
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/titre-ml-dark.svg"/><img src="assets/titre-ml-light.svg" width="100%" alt="Machine learning"/></picture>
 
 Des modèles sur le sport, **mesurés contre une référence simple** plutôt que vendus au pourcentage flatteur.
 
@@ -76,17 +79,19 @@ Des modèles sur le sport, **mesurés contre une référence simple** plutôt qu
 | **MotoGP** | Régression logistique, gradient boosting | ~30 % de vainqueurs trouvés, contre 18 à 31 % pour les repères simples |
 | **OpenTTD** | Apprentissage par renforcement (PPO masqué) | En cours : 250 M de pas, +545 000 £ en moyenne sur 48 parties |
 
-## Stack
+<!-- Stack -->
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/titre-stack-dark.svg"/><img src="assets/titre-stack-light.svg" width="100%" alt="Stack"/></picture>
 
 <p>
-<img src="https://skillicons.dev/icons?i=php,symfony,laravel,python,django,fastapi,flask,nodejs,express&theme=dark" height="40" alt="Back : PHP, Symfony, Laravel, Python, Django, FastAPI, Flask, Node.js, Express"/>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=php%2Csymfony%2Claravel%2Cpython%2Cdjango%2Cfastapi%2Cflask%2Cnodejs%2Cexpress&theme=dark"/><img src="https://skillicons.dev/icons?i=php%2Csymfony%2Claravel%2Cpython%2Cdjango%2Cfastapi%2Cflask%2Cnodejs%2Cexpress&theme=light" height="40" alt="Back : PHP, Symfony, Laravel, Python, Django, FastAPI, Flask, Node.js, Express"/></picture>
 <br/>
-<img src="https://skillicons.dev/icons?i=html,css,js,react,vite,tailwind,postgres,mysql,redis,sqlite&theme=dark" height="40" alt="Front et données : HTML, CSS, JavaScript, React, Vite, Tailwind, PostgreSQL, MySQL, Redis, SQLite"/>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=html%2Ccss%2Cjs%2Creact%2Cvite%2Ctailwind%2Cpostgres%2Cmysql%2Credis%2Csqlite&theme=dark"/><img src="https://skillicons.dev/icons?i=html%2Ccss%2Cjs%2Creact%2Cvite%2Ctailwind%2Cpostgres%2Cmysql%2Credis%2Csqlite&theme=light" height="40" alt="Front et données : HTML, CSS, JavaScript, React, Vite, Tailwind, PostgreSQL, MySQL, Redis, SQLite"/></picture>
 <br/>
-<img src="https://skillicons.dev/icons?i=docker,linux,nginx,cloudflare,githubactions,sklearn,pytorch,homeassistant&theme=dark" height="40" alt="Infra et ML : Docker, Linux, Nginx, Cloudflare, GitHub Actions, scikit-learn, PyTorch, Home Assistant"/>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=docker%2Clinux%2Cnginx%2Ccloudflare%2Cgithubactions%2Csklearn%2Cpytorch%2Chomeassistant&theme=dark"/><img src="https://skillicons.dev/icons?i=docker%2Clinux%2Cnginx%2Ccloudflare%2Cgithubactions%2Csklearn%2Cpytorch%2Chomeassistant&theme=light" height="40" alt="Infra et ML : Docker, Linux, Nginx, Cloudflare, GitHub Actions, scikit-learn, PyTorch, Home Assistant"/></picture>
 </p>
 
-## Activité
+<!-- Activité -->
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/titre-activite-dark.svg"/><img src="assets/titre-activite-light.svg" width="100%" alt="Activité"/></picture>
 
 <!-- Généré chaque nuit par .github/workflows/stats.yml (scripts/build_stats.py) -->
 <p>
@@ -94,13 +99,15 @@ Des modèles sur le sport, **mesurés contre une référence simple** plutôt qu
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stats-activite-dark.svg"/><img src="assets/stats-activite-light.svg" width="49%" alt="Contributions des 12 derniers mois et séries"/></picture>
 </p>
 
-## Contact
+<!-- Contact -->
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/titre-contact-dark.svg"/><img src="assets/titre-contact-light.svg" width="100%" alt="Contact"/></picture>
 
 Un site, une appli, une mission freelance ? Je réponds vite.
 
 <p>
-<a href="mailto:daenselliott691@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-mail-dark.svg"/><img src="assets/btn-mail-light.svg" height="48" alt="Écrivez-moi : daenselliott691@gmail.com"/></picture></a>
-<a href="https://www.linkedin.com/in/elliott-daens-906b8b32a/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-linkedin-dark.svg"/><img src="assets/btn-linkedin-light.svg" height="48" alt="LinkedIn : Elliott Daens"/></picture></a>
+<a href="mailto:daenselliott691@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-mail-dark.svg"/><img src="assets/btn-mail-light.svg" height="46" alt="Écrivez-moi : daenselliott691@gmail.com"/></picture></a>
+<a href="https://www.portfolio-daens-elliott.fr/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-portfolio-dark.svg"/><img src="assets/btn-portfolio-light.svg" height="46" alt="Portfolio : portfolio-daens-elliott.fr"/></picture></a>
+<a href="https://www.linkedin.com/in/elliott-daens-906b8b32a/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-linkedin-dark.svg"/><img src="assets/btn-linkedin-light.svg" height="46" alt="LinkedIn : Elliott Daens"/></picture></a>
 </p>
 
 Hors du code : jiu-jitsu brésilien 🥋, musculation, Formule 1 🏎️, cinéma, gaming.

@@ -1,19 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="250" height="64" viewBox="0 0 250 64" role="img" aria-label="LinkedIn : Elliott Daens">
-  <title>LinkedIn</title>
-  <defs>
-    <linearGradient id="gbtn" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#4f46e5"/><stop offset=".55" stop-color="#9333ea"/><stop offset="1" stop-color="#0891b2"/>
-    </linearGradient>
-    <pattern id="pbtn" width="28" height="28" patternUnits="userSpaceOnUse">
-      <path d="M28 0H0V28" fill="none" stroke="#000000" stroke-opacity="0.045"/>
-    </pattern>
-    <filter id="bbtn" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="60"/></filter>
-  </defs>
-  <style>.s{font-family:'Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif}</style>
-  <rect x=".5" y=".5" width="249" height="63" rx="16" fill="#f6f8fa" stroke="#d0d7de"/>
-  <rect x="12" y="12" width="40" height="40" rx="12" fill="url(#gbtn)"/>
-  <g transform="translate(32 32)"><text x="0" y="5" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="800" fill="#fff">in</text></g>
-  <text x="66" y="28" class="s" font-size="17" font-weight="700" fill="#1f2328">LinkedIn</text>
-  <text x="66" y="47" class="s" font-size="13" fill="#59636e">Elliott Daens</text>
-  <text x="228" y="38" class="s" font-size="20" text-anchor="end" fill="#59636e">→</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="159" height="56" viewBox="0 0 159 56" role="img" aria-label="LinkedIn">
+  <title>LinkedIn</title><style>@font-face{font-family:'JetBrains Mono';font-style:normal;font-weight:100 800;src:url(data:font/woff2;base64,d09GMgABAAAAAAXQABMAAAAAC+QAAAVvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGiIbIBwqBmA/U1RBVIEgJx4AZC9MEQgKhAiDLDCDKAE2AiQDLAsYAAQgBYdGByAMBxsoClGUTdLWAF8f2AZMe7TeiUqNLUqjw3ohJ6zi2ww0f2yFxYi+1Y0leTGMTIRnQYS2/c9ukgOSO+B9da9EvHXtChfz69f0bYh0XL4NoAwXEA55r+AyFcKXh4/70Z/7NtsXd5a2KQq4RAszKIWbazybtvHb75cBiosD51zmMzWDjtefymihFz1CU3SkQ1T/xLo6sN5tPXg66VDE6Hf96XKonzb+dCj/C8suLk1v00ETLJtWQEMRDmCotfalN8680IPVhqWDN33gxyd9t1cYXsLvJbwQAWIAQBDSCAIIAtdTPGWUI132T29RwgL8B0AcTjU16M4a0yX20YwJXGx1BK3IAl2bFAF6s6NlJCbRAVDI8FAXTuzVDXBAtZkZf39NjhToI96BaDW9BRU42vBeFCgiAqrQRYbJBKaMSC6VIMRU0EQPr1wZQMXKZmQkIIdAAcTJFyyqI/BUpHtoVN/RVMpUoIbvLZg8g7qHgQTz3FHo1a/iDjgCyCvcGAKqDmaxBlDAAEUYBCjCMgDIyzNABT2d0lgcfvpHaeou6ber9CI9SQ+fmvYCnJJjUpH8nb6H4iu8Ta0QRRALvSSIg75IxRK1qiSJpGIHJCt/3X9KAAgAFAMe2A57IJ5f0or+J24qcVQ8W8r7pFgcJDgvCd4G/hjBvs2Y5TZZclf9BrUFw6jAevG1Fzfv75Alt5WuYfFNRKM0yPw/IIYnVD9r0VeuK9yXhPSECSaa+UgNw6sDT5W+CpAi1CikkXiz5DJFLimWZw+X7RHf7x6bO8u14q1co6/XhSRgaGJyQarY60w1dhZPV90ap1EGANDR0xAYKuIAudPAsArkWtlaJgQFQqVasVYMhXSxXQk2JyYHfJzoj0NJa1FF0sc1/61GyvnLhDCajoOlYigVWplUqVUSkO5cr73za8TbtQvyAYY2pZN34wp5Syqe/JX/vTJDRTxdadVp3clsoBUqiD94AoVaETMCdBfd2R0Ft7vgsOeBTDUiIMLnsABDQWubDAIIAtQRAKgHIEcpnXnYnw2bNu132gSQJguRE30c7J6/zs12M9rggvO6GOw0GO37pgZdHBlCxvQAqnx+zNmw8bg+7PUslm+dzc//Xz3GPPx5b8Mtm8rAwrenTO+ThPwVpSKaNNmpb+PjR5/hjXI2UXKFXqzK8XPbZfsEycIlKeFQ5Myn7ouBNY/iF5AFbzSd6WbBKf/t8ZWbP27nM2WsThUtlE9hf6wey4sbguULrrlY1rI5pBmDs22t2Y+bH46jrdlpLY4TS4P42YfHA12tiuubrv0VObSFJeCXRONXNR7UIorG7PbEK+d0WC0PQ1PjX9aTYF81TneZbkepsHlu3Cpq/76XH9ufhDbtvsBCHv4CALSZLdxqtxcvaf1KwOYFcPuytgeel+WGetMb5DcZIEIBENgjfToiBuP/sgXCox50BJ6p3bohUXUHH/D6EwA8FUCgKqUYzc+MXVbYKxmIzQB7+EehjD2oZLmBhjaeoaVOVEJHqeiHEbViMjdLs9gqJRDLCbRkuYGOWK5gRFoeYIpC8QIDTeIXxjRK6mFCvWQ0ZmmRbMQcsR57WB6vl/QIhH7FLAYTExppwOMVDEFB+xv0omHbYhKLLyH0FfAFhAFiAZtGwYSOUswUiCWEGiZjLJSYqq++SSzMlJINjBPwDEuaHbeUvfZ2zeLXNK6cckliE+FGGmqo9Xa3zfJeoZ9+7mwloZP3tHY7rThRoewFKnPm/krOo4xQ7xBLDEpIugY9fLRhqL99px5oozjMGY3KonHPthJ0qfb8GJQFnSt1Xo9Ja4lfv/mnm16H+R8LWK/Z2vPdI0zisiixg1ke2v3PBAg9d8T/7cwq) format('woff2')}.jb{font-family:'JetBrains Mono',ui-monospace,monospace;font-style:normal}</style>
+  <rect x=".75" y=".75" width="158" height="54.5" rx="27.25" fill="none" stroke="#101217" stroke-opacity="0.45" stroke-width="1.5"/>
+  <text x="30" y="33.4" class="jb" font-size="15" font-weight="700" fill="#101217">LinkedIn</text>
+  <path d="M116.0 34.5L129.0 21.5M120.55 21.5H129.0V29.95" fill="none" stroke="#101217" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

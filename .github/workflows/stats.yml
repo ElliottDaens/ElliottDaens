@@ -27,6 +27,9 @@ jobs:
         with:
           ref: main
 
+      - name: Polices (sous-ensembles embarqués dans les SVG)
+        run: python3 -m pip install --quiet fonttools==4.68.0 brotli==1.2.1
+
       - name: Générer les cartes
         env:
           GH_TOKEN: ${{ secrets.METRICS_TOKEN }}

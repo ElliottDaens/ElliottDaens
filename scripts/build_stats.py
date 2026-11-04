@@ -9,7 +9,7 @@ import urllib.request
 from collections import defaultdict
 from datetime import date
 
-from build_assets import MONO, OUT, SANS, THEMES, defs, e
+from build_assets import THEMES, e, label, write
 
 EXCLUS = {
     "coteo/badgemoi2024", "coteo-technique/Opalenews", "ElliottDaens/ElliottDaens",
@@ -82,42 +82,41 @@ def series(jours):
 
 
 def carte_langues(t, data, n):
-    W, H = 600, 310
-    x, bar = 32, []
-    for nom, pct, col in data:
+    W, H = 600, 320
+    tons = [(t["accent"], 1)] + [(t["line"], o) for o in (.9, .66, .48, .34, .24, .16, .1)]
+    x, bar, items = 32.0, [], []
+    for i, (nom, pct, _) in enumerate(data):
+        col, op = tons[min(i, len(tons) - 1)]
         w = (W - 64) * pct / 100
-        bar.append(f'<rect x="{x:.1f}" y="92" width="{max(w - 2, 1):.1f}" height="12" fill="{col}"/>')
+        bar.append(f'<rect x="{x:.1f}" y="104" width="{max(w - 3, 1):.1f}" height="14" fill="{col}" fill-opacity="{op}"/>')
         x += w
-    items = []
-    for i, (nom, pct, col) in enumerate(data):
-        cx, cy = 32 + (i % 2) * 280, 146 + (i // 2) * 36
-        items.append(f'<circle cx="{cx + 6}" cy="{cy - 5}" r="6" fill="{col}"/>'
-                     f'<text x="{cx + 22}" y="{cy}" class="s" font-size="16" font-weight="600" fill="{t["text"]}">{e(nom)}</text>'
-                     f'<text x="{cx + 250}" y="{cy}" class="m" font-size="14" text-anchor="end" fill="{t["muted"]}">{pct:.1f} %</text>')
+        cx, cy = 32 + (i % 2) * 284, 166 + (i // 2) * 38
+        items.append(f'<rect x="{cx}" y="{cy - 11}" width="12" height="12" rx="2" fill="{col}" fill-opacity="{op}"'
+                     + (f' stroke="{t["line"]}" stroke-opacity=".5"' if i == 0 and t["acc"] != t["accent"] else "") + "/>"
+                     f'<text x="{cx + 24}" y="{cy}" class="sg" font-size="16.5" font-weight="600" fill="{t["ink"]}">{e(nom)}</text>'
+                     f'<text x="{cx + 252}" y="{cy}" class="jb" font-size="13.5" text-anchor="end" fill="{t["faint"]}">{pct:.1f} %</text>')
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="Langages : {e(', '.join(f'{a} {b:.0f} %' for a, b, _ in data))}">
-  <title>Langages les plus utilisés</title>{defs(t, 'sl')}
-  <style>.s{{font-family:{SANS}}} .m{{font-family:{MONO}}}</style>
-  <clipPath id="barclip"><rect x="32" y="92" width="{W - 64}" height="12" rx="6"/></clipPath>
-  <rect x=".5" y=".5" width="{W - 1}" height="{H - 1}" rx="20" fill="{t['card']}" stroke="{t['border']}"/>
-  <text x="32" y="50" class="m" font-size="13" font-weight="700" letter-spacing="1.5" fill="url(#gsl)">LANGAGES</text>
-  <text x="{W - 32}" y="50" class="s" font-size="13" text-anchor="end" fill="{t['muted']}">sur {n} dépôts, privés compris</text>
+  <title>Langages les plus utilisés</title><!--FONTS-->
+  <clipPath id="barclip"><rect x="32" y="104" width="{W - 64}" height="14" rx="3"/></clipPath>
+  <rect x=".5" y=".5" width="{W - 1}" height="{H - 1}" rx="6" fill="{t['card']}" stroke="{t['line']}" stroke-opacity="{t['hi']}"/>
+  {label(t, 32, 52, "Langages", 12.5)}
+  <text x="{W - 32}" y="52" class="jb" font-size="12" text-anchor="end" fill="{t['faint']}">{n} dépôts, privés compris</text>
   <g clip-path="url(#barclip)">{''.join(bar)}</g>
   {''.join(items)}
 </svg>"""
 
 
 def carte_activite(t, v):
-    W, H = 600, 310
+    W, H = 600, 320
     cal = v["contributionsCollection"]["contributionCalendar"]
     jours = [d for w in cal["weeks"] for d in w["contributionDays"]]
     actuelle, best = series(jours)
-    chiffres = [(f"{cal['totalContributions']:,}".replace(",", " "), "contributions sur 12 mois"),
+    chiffres = [(f"{cal['totalContributions']:,}".replace(",", " "), "contributions / 12 mois"),
                 (str(actuelle), "jours d'affilée"), (str(best), "record de série")]
     stats = "".join(
-        f'<text x="{32 + i * 186}" y="112" class="s" font-size="34" font-weight="800" fill="{t["text"] if i else "url(#gsa)"}">{e(a)}</text>'
-        f'<text x="{32 + i * 186}" y="136" class="s" font-size="13.5" fill="{t["muted"]}">{e(b)}</text>'
+        f'<text x="{32 + i * 196}" y="122" class="sg" font-size="44" font-weight="700" letter-spacing="-1.5" fill="{t["ink"]}">{e(a)}</text>'
+        f'<text x="{32 + i * 196}" y="146" class="jb" font-size="10.5" font-weight="500" letter-spacing="1.4" fill="{t["faint"]}">{e(b.upper())}</text>'
         for i, (a, b) in enumerate(chiffres))
-    # mini calendrier des 26 dernières semaines
     semaines = cal["weeks"][-30:]
     mx = max((d["contributionCount"] for w in semaines for d in w["contributionDays"]), default=1) or 1
     cells, size, g = [], 14, 4
@@ -125,16 +124,17 @@ def carte_activite(t, v):
         for d in w["contributionDays"]:
             wd = (date.fromisoformat(d["date"]).weekday() + 1) % 7
             c = d["contributionCount"]
-            op = 0 if c == 0 else 0.25 + 0.75 * min(1, (c / mx) ** 0.5)
-            fill = t["chip"] if c == 0 else t["a2"]
-            cells.append(f'<rect x="{32 + wi * (size + g)}" y="{160 + wd * (size + g)}" width="{size}" height="{size}" rx="3" fill="{fill}"'
-                         + (f' fill-opacity="{op:.2f}"' if c else "") + "/>")
+            x, y = 32 + wi * (size + g), 172 + wd * (size + g) - 4
+            if c == 0:
+                cells.append(f'<rect x="{x}" y="{y}" width="{size}" height="{size}" rx="2" fill="{t["line"]}" fill-opacity="{t["lo"] * .8:.3f}"/>')
+            else:
+                op = 0.3 + 0.7 * min(1, (c / mx) ** 0.5)
+                cells.append(f'<rect x="{x}" y="{y}" width="{size}" height="{size}" rx="2" fill="{t["heat"]}" fill-opacity="{op:.2f}"/>')
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="{e(chiffres[0][0])} contributions sur 12 mois, série actuelle {actuelle} jours, record {best} jours">
-  <title>Activité GitHub</title>{defs(t, 'sa')}
-  <style>.s{{font-family:{SANS}}} .m{{font-family:{MONO}}}</style>
-  <rect x=".5" y=".5" width="{W - 1}" height="{H - 1}" rx="20" fill="{t['card']}" stroke="{t['border']}"/>
-  <text x="32" y="50" class="m" font-size="13" font-weight="700" letter-spacing="1.5" fill="url(#gsa)">ACTIVITÉ</text>
-  <text x="{W - 32}" y="50" class="s" font-size="13" text-anchor="end" fill="{t['muted']}">mis à jour le {date.today().strftime('%d/%m/%Y')}</text>
+  <title>Activité GitHub</title><!--FONTS-->
+  <rect x=".5" y=".5" width="{W - 1}" height="{H - 1}" rx="6" fill="{t['card']}" stroke="{t['line']}" stroke-opacity="{t['hi']}"/>
+  {label(t, 32, 52, "Activité", 12.5)}
+  <text x="{W - 32}" y="52" class="jb" font-size="12" text-anchor="end" fill="{t['faint']}">maj {date.today().strftime('%d/%m/%Y')}</text>
   {stats}
   {''.join(cells)}
 </svg>"""
@@ -144,6 +144,6 @@ if __name__ == "__main__":
     v = gql()
     data, n = langues(v)
     for mode, t in THEMES.items():
-        (OUT / f"stats-langues-{mode}.svg").write_text(carte_langues(t, data, n), encoding="utf-8")
-        (OUT / f"stats-activite-{mode}.svg").write_text(carte_activite(t, v), encoding="utf-8")
+        write(f"stats-langues-{mode}.svg", carte_langues(t, data, n))
+        write(f"stats-activite-{mode}.svg", carte_activite(t, v))
     print("stats ok :", ", ".join(f"{a} {b:.1f}%" for a, b, _ in data))
