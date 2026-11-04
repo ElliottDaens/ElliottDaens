@@ -1,179 +1,176 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=150&section=header&text=Elliott%20Daens&fontSize=40&fontColor=fff&animation=twinkling&fontAlignY=35" width="100%"/>
+<!-- En-tête -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=170&section=header&text=Elliott%20Daens&fontSize=44&fontColor=fff&animation=twinkling&fontAlignY=35&desc=D%C3%A9veloppeur%20web%20freelance%20%C2%B7%20Full-stack%20%C2%B7%20Self-hosting&descAlignY=58&descSize=16" width="100%" alt="Elliott Daens — développeur web freelance"/>
 
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=500&size=22&pause=1000&color=6366F1&center=true&vCenter=true&width=435&lines=Etudiant+en+DEUST+WMI;Web+%26+Design;Full-Stack+Developer;Docker+%26+Self-Hosting+Enthusiast" alt="Typing SVG" />
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=6366F1&center=true&vCenter=true&width=520&lines=D%C3%A9veloppeur+web+freelance;Symfony+%C2%B7+Django+%C2%B7+Laravel+%C2%B7+Node.js;IA+%3A+RAG+%C2%B7+recherche+s%C3%A9mantique+%C2%B7+Mistral;Homelab+%3A+NAS+Linux+%2B+Docker;Machine+learning+%3A+pronostics+F1+%26+foot;Python+%3A+FastAPI+%C2%B7+Flask+%C2%B7+Streamlit" alt="Ce que je fais"/></a>
 
-<br/><br/>
-
-[![GitHub](https://img.shields.io/badge/GitHub-ElliottDaens-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ElliottDaens)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Elliott%20Daens-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/elliott-daens-906b8b32a/)
-[![Email](https://img.shields.io/badge/Gmail-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:daenselliott691@gmail.com)
-
-<br/>
-
-`🇫🇷 France` · `💻 Développeur en formation` · `🚀 Passionné tech`
-
-<img src="https://komarev.com/ghpvc/?username=ElliottDaens&label=Profile%20views&color=6366F1&style=flat" alt="Profile views" />
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Elliott%20Daens-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/elliott-daens-906b8b32a/)
+[![Email](https://img.shields.io/badge/Email-me%20contacter-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:daenselliott691@gmail.com)
+![Statut](https://img.shields.io/badge/Freelance-disponible%20pour%20missions-22C55E?style=flat-square&logo=rocket&logoColor=white)
+![Vues](https://komarev.com/ghpvc/?username=ElliottDaens&label=Vues&color=6366F1&style=flat-square)
 
 </div>
 
-<br/>
+### 👋 Salut, moi c'est Elliott
 
-## 🎯 À propos de moi
+Développeur web **freelance full-stack**, basé en France 🇫🇷.
+Je construis des applis web de bout en bout — du back **Symfony / Django / Laravel** jusqu'au déploiement **Docker** et à la mise en prod.
 
-```yaml
-nom:         Elliott Daens
-formation:   DEUST WMI (Web, Multimédia & Informatique)
-focus:       Développement Full-Stack & Self-Hosting
-passions:    Docker, NAS, administration serveur
-objectif:    Construire des infrastructures fiables et des apps performantes
+- 💼 En mission avec **Coteo** : [**Opalenews**](https://www.opalenews.com/) (en ligne) et **Contacto**
+- 🚧 En chantier : un annuaire des pros de l'habitat en Hauts-de-France (pas encore en ligne)
+- 🏠 Je fais tourner un **homelab** : NAS Linux, applis et bots en conteneurs Docker, VPN Tailscale, sauvegardes chiffrées
+- 🤖 J'expérimente le **machine learning** (pronostics F1 et football) et les **agents IA** (Claude Code, MCP)
+- 🌱 J'apprends : architecture MVC avancée, tests, CI/CD avec GitHub Actions
+- 💬 Parlez-moi de : self-hosting, Docker, F1 🏎️, jiu-jitsu brésilien 🥋
+
+```ts
+const elliott = {
+  role: "Développeur web freelance",
+  client: "Coteo",
+  formation: "DEUST WMI — Web, Multimédia & Informatique",
+  stack: ["PHP/Symfony", "Python/Django", "Laravel", "JavaScript", "Docker"],
+  ia: ["RAG", "embeddings", "Gemini", "Mistral"],
+  aime: ["les applis rapides", "les serveurs qui ne tombent jamais", "les données"],
+  horsCode: ["JJB", "muscu", "F1", "cinéma", "gaming"],
+};
 ```
 
-Je maîtrise les technologies **frontend et backend** avec un intérêt particulier pour **Docker**, le **self-hosting** et la **création / maintenance de serveurs (NAS...)**.
-
-<br/>
-
-## 💻 Technologies & Outils
+## 🛠️ Stack
 
 <div align="center">
 
-**Frontend**
-
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-
-**Backend**
-
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-
-**Infrastructure & DevOps**
-
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Docker Compose](https://img.shields.io/badge/Docker%20Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Portainer](https://img.shields.io/badge/Portainer-13BEF9?style=for-the-badge&logo=portainer&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
-
-**Monitoring & Réseau**
-
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
-![Tailscale](https://img.shields.io/badge/Tailscale-242424?style=for-the-badge&logo=tailscale&logoColor=white)
-
-**Outils**
-
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+| | |
+|:--|:--|
+| **Front** | <img src="https://skillicons.dev/icons?i=html,css,js,tailwind&theme=dark" alt="HTML, CSS, JavaScript, Tailwind"/> |
+| **Back** | <img src="https://skillicons.dev/icons?i=php,symfony,laravel,python,django,fastapi,flask,nodejs&theme=dark" alt="PHP, Symfony, Laravel, Python, Django, FastAPI, Flask, Node.js"/> |
+| **Données** | <img src="https://skillicons.dev/icons?i=postgres,mysql,sqlite,redis&theme=dark" alt="PostgreSQL, MySQL, SQLite, Redis"/> |
+| **Infra** | <img src="https://skillicons.dev/icons?i=docker,nginx,linux,ubuntu,githubactions&theme=dark" alt="Docker, Nginx, Linux, Ubuntu, GitHub Actions"/> |
+| **Monitoring** | <img src="https://skillicons.dev/icons?i=prometheus,grafana,homeassistant&theme=dark" alt="Prometheus, Grafana, Home Assistant"/> |
+| **Outils** | <img src="https://skillicons.dev/icons?i=git,github,vscode&theme=dark" alt="Git, GitHub, VS Code"/> |
 
 </div>
 
-<br/>
+## 🚀 Projets phares
 
-## 🔥 Compétences Principales
-
-<div align="center">
-
-| 🎨 Frontend | ⚙️ Backend | 🐳 Infrastructure |
-|:---:|:---:|:---:|
-| HTML5 | PHP | Docker & Compose |
-| CSS3 | Node.js | Linux / Ubuntu |
-| JavaScript | MySQL | Monitoring & Logs |
-| UI/UX Design | Bases de données | Configuration Réseau |
-
-</div>
-
-<br/>
-
-## 🎯 Ce que je fais
-
-<div align="center">
+> Mes dépôts sont privés (projets clients et prod perso). Visite du code ou démo sur demande 👉 [me contacter](mailto:daenselliott691@gmail.com).
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-🔨 **Développement Full-Stack**
-HTML/CSS/JS + PHP/MySQL
-Applications robustes et performantes
+### 🤝 Contacto · *avec Coteo*
+Plateforme de mise en relation pour clubs et réseaux d'entreprises : profils, messagerie, fil d'actu, **campagnes e-mail et relances automatiques**, IA **Mistral**.
+<br/><sub>Django · Celery · MySQL · Tailwind · Docker</sub>
 
 </td>
 <td width="50%" valign="top">
 
-🐳 **Infrastructures**
-Docker, Compose, administration Linux
-Déploiement & gestion
+### 🌊 [Opalenews](https://www.opalenews.com/) · *avec Coteo*
+Les événements de la Côte d'Opale : **recherche sémantique**, **assistant IA (RAG)**, carte interactive, site en FR / EN / NL, newsletter. **En ligne.**
+<br/><sub>Symfony 8 · PHP 8.4 · PostgreSQL · Gemini · Pinecone · CI/CD</sub>
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-📊 **Monitoring & Optimisation**
-Prometheus, Grafana
-Surveillance et optimisation des systèmes
+### 🏎️ Pit Wall
+Appli F1 : calendrier, classements et **pronostics par machine learning** du vainqueur de chaque Grand Prix.
+<br/><sub>Python · ML · Docker</sub>
 
 </td>
 <td width="50%" valign="top">
 
-🔐 **Réseau & Sécurité**
-VPN, Tailscale, configuration réseau
-Infrastructure sécurisée
+### ⚽ Virage & Étoiles
+Pronostics **Ligue 1** et **Ligue des champions** : modèles ML + deux applis web servies par le NAS.
+<br/><sub>Python · ML · Streamlit</sub>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 👾 Pixel Office
+Un bureau en **pixel art** où chaque session Claude Code devient un avatar : suivi en direct, chat et courrier entre agents.
+<br/><sub>JavaScript · MCP</sub>
+
+</td>
+<td width="50%" valign="top">
+
+### 🛒 Bot Vinted → Telegram
+Surveille des recherches Vinted et envoie les nouvelles annonces sur Telegram en quelques secondes.
+<br/><sub>Python · Telegram API</sub>
 
 </td>
 </tr>
 </table>
 
-</div>
+## 🏠 Mon homelab
 
-<br/>
+Tout ce que je développe tourne en prod chez moi, sur un NAS Linux piloté en Docker :
 
-## 🏋️ Au-delà du Code
+```mermaid
+flowchart LR
+    U["💻 PC / 📱 mobile"] -- "VPN Tailscale" --> NAS
+    subgraph NAS["🗄️ NAS Linux"]
+        direction TB
+        RP["HTTPS"] --> APPS["Applis web<br/>Pit Wall · Virage · Paddock"]
+        RP --> DASH["Dashboards<br/>Streamlit"]
+        BOTS["Bots<br/>Telegram · Discord · Vinted"]
+        MON["Prometheus + Grafana"] -. surveille .-> APPS
+    end
+    NAS -- "notifications" --> TG["📨 Telegram"]
+    U -- "sauvegardes restic chiffrées" --> NAS
+    U <-- "Syncthing" --> NAS
+```
 
-<div align="center">
-
-🥋 **Jiu-Jitsu Brésilien** · 💪 **Musculation** · 🎮 **Gaming** · 🏎️ **Formule 1** · 🎥 **Cinéma**
-
-🛒 **Tinkering** — automatisation Vinted & eBay via un bot Python
-
-</div>
-
-<br/>
-
-## 📚 Actuellement en Apprentissage
-
-<div align="center">
-
-`🔄 Frameworks Web Avancés & Architecture MVC` · `🔄 Automatisation Serveur`
-
-</div>
-
-<br/>
-
-## 📫 Connectons-nous
+## 📊 Stats GitHub
 
 <div align="center">
 
-### ✨ Une idée de projet ? Une collaboration en tête ?
+<!-- Mises à jour chaque nuit par .github/workflows/metrics.yml -->
+<img src="metrics/languages.svg" alt="Langages les plus utilisés" width="49%"/>
+<img src="metrics/habits.svg" alt="Habitudes de code" width="49%"/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=ElliottDaens&theme=github-dark-blue&hide_border=true&background=00000000&locale=fr"/>
+  <img src="https://streak-stats.demolab.com?user=ElliottDaens&hide_border=true&background=00000000&locale=fr" alt="Série de contributions"/>
+</picture>
+
+<details>
+<summary><b>🗓️ Mon année en 3D</b></summary>
+<br/>
+<img src="metrics/isocalendar.svg" alt="Calendrier isométrique des contributions"/>
+</details>
+
 <br/>
 
-[![GitHub](https://img.shields.io/badge/GitHub-ElliottDaens-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ElliottDaens)
+<!-- Généré chaque nuit par .github/workflows/snake.yml -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ElliottDaens/ElliottDaens/output/github-snake-dark.svg"/>
+  <img src="https://raw.githubusercontent.com/ElliottDaens/ElliottDaens/output/github-snake.svg" alt="Serpent qui mange mes contributions"/>
+</picture>
+
+</div>
+
+## 🏋️ Hors du code
+
+<div align="center">
+
+🥋 **Jiu-jitsu brésilien** · 💪 **Musculation** · 🏎️ **Formule 1** · 🎥 **Cinéma** · 🎮 **Gaming**
+
+</div>
+
+## 📫 On en parle ?
+
+<div align="center">
+
+**Un site, une appli, une mission freelance ?** Écrivez-moi, je réponds vite 🚀
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Elliott%20Daens-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/elliott-daens-906b8b32a/)
-[![Email](https://img.shields.io/badge/Gmail-daenselliott691@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:daenselliott691@gmail.com)
-
-<br/>
-
-**N'hésitez pas à me contacter ! Je serais ravi de discuter de vos projets !** 🚀
-
-<br/>
-
-![Status](https://img.shields.io/badge/🟢_Ouvert_aux_opportunités-6366F1?style=for-the-badge)
+[![Email](https://img.shields.io/badge/Email-daenselliott691%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:daenselliott691@gmail.com)
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=100&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=100&section=footer" width="100%" alt=""/>
